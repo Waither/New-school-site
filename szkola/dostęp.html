@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+<head>
+	<title>ZS1 :: Deklaracja dostępności</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Zespół Szkół Nr 1 im. Ignacego Łukasiewicza w Gorlicach">
+	<meta name="keywords" content="szkoła, gorlice, łukasiewicz, rekrutacja, małopolska">
+
+	<link rel="icon" type="image/png" href="../images/icons/logo.svg"/>
+
+	<link rel="stylesheet" type="text/css" href="../vendor/bootstrap/css/bootstrap.min.css">
+
+	<link rel="stylesheet" type="text/css" href="../fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="../fonts/themify/themify-icons.css">
+	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css">
+
+	<link rel="stylesheet" type="text/css" href="../vendor/animate/animate.css">
+	<link rel="stylesheet" type="text/css" href="../vendor/css-hamburgers/hamburgers.min.css">
+	<link rel="stylesheet" type="text/css" href="../vendor/animsition/css/animsition.min.css">
+	<link rel="stylesheet" type="text/css" href="../vendor/select2/select2.min.css">
+	<link rel="stylesheet" type="text/css" href="../vendor/daterangepicker/daterangepicker.css">
+	<link rel="stylesheet" type="text/css" href="../vendor/slick/slick.css">
+	<link rel="stylesheet" type="text/css" href="../vendor/lightbox2/css/lightbox.min.css">
+
+	<link rel="stylesheet" type="text/css" href="../css/util.css">
+	<link rel="stylesheet" type="text/css" href="../css/main.css">
+</head>
+<body class="animsition">
+
+	<!-- Nagłówek -->
+
+	<header>
+		<div class="wrap-menu-header gradient1 trans-0-4">
+			<div class="container h-full">
+				<div class="wrap_header trans-0-3">
+					<div style="align-items: center; display: flex;">
+						<div class="float-l m-r-10">
+							<img class="m-b-5" src="../images/icons/godlo.webp" alt="Godło Rzeczpospolitej Polskiej" data-logofixed="../images/icons/godlo.webp"><br>
+							<a href="https://bip.malopolska.pl/zs1gorlice"><img src="../images/icons/bip.webp" alt="Biuletyn Informacji Publicznej" data-logofixed="../images/icons/bip.webp"></a>
+						</div>
+						<div class="logo float-l p-b-5">
+							<a href="index.php"><img src="../images/icons/logo.svg" alt="Zespół Szkół Nr 1 im. Ignacego Łukasiewicza w Gorlicach" data-logofixed="../images/icons/logo.svg"></a>
+						</div>
+					</div>
+					
+					<!-- Menu główne -->
+
+					<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+					<script src="../js/change-color.js"></script>
+					<script>
+						$(function() {
+							$(".drop").click(function(e){
+								e.preventDefault();
+								if ($(this).next(".dropdown").is(":hidden")) {
+									$(".dropdown").slideUp()
+									$(this).next(".dropdown").slideDown()
+								}
+								else {
+									$(".dropdown").slideUp()
+								}
+							});
+							$(".drop").focusout(function(){
+								$(".dropdown").slideUp()
+							})
+						});
+					</script>
+					<div class="wrap_menu p-l-45 p-l-0-xl">
+						<nav class="menu">
+							<ul class="main_menu">
+								<li><a href="../index.php">Strona główna</a></li>
+								<li><a href="../profile/oferta.html">Oferta edukacyjna</a></li>
+								<li><a href="../szkola/rekrutacja.html">Rekrutacja</a></li>
+								<li class="drop"><a class="dropa" href="">O szkole </a></li>
+									<div class="dropdown">
+										<ul class="listaroz1">
+											<li class="listaroz"><a class="od" href="../szkola/historia.html">Historia szkoły</a></li>
+											<li class="listaroz"><a class="od" href="../szkola/patron.html">Patron szkoły</a></li>
+											<li class="listaroz"><a class="od" href="../szkola/statut.html">Statut szkoły</a></li>
+											<li class="listaroz"><a class="od" href="../szkola/kadrap.php">Kadra pedagogiczna</a></li>
+											<li class="listaroz"><a class="od" href="../szkola/kadraa.php">Kadra administracyjna</a></li>
+											<li class="listaroz"><a class="od" href="../szkola/biblioteka.html">Biblioteka</a></li>
+											<li class="listaroz"><a class="od" href="../szkola/internat.html">Internat</a></li>
+											<li class="listaroz"><a class="od" href="../szkola/rodo.html">Klauzula informacyjna</a></li>
+											<li class="listaroz"><a class="od" href="../szkola/projektyunijne.html">Projekty unijne</a></li>
+										</ul>
+									</div>
+								<li class="drop"><a class="dropa" href="">Informacje</a></li>
+									<div class="dropdown dropdown2">
+										<ul  class="listaroz1">
+											<li class="listaroz"><a class="od" href="../strefy/uczeń.html">Strefa ucznia</a></li>
+											<li class="listaroz"><a class="od" href="../strefy/rodzic.html">Strefa rodzica</a></li>
+											<li class="listaroz"><a class="od" href="http://planlekcji.lukasiewicz.gorlice.pl/">Plan lekcji</a></li>
+										</ul>
+									</div>
+								<li><a href="../szkola/kontakt.html">Kontakt</a></li>
+								<li><a href="https://cufs.vulcan.net.pl/powiatgorlicki/Account/LogOn?ReturnUrl=%2Fpowiatgorlicki%2FFS%2FLS%3Fwa%3Dwsignin1.0%26wtrealm%3Dhttps%253a%252f%252fuonetplus.vulcan.net.pl%252fpowiatgorlicki%252fLoginEndpoint.aspx%26wctx%3Dhttps%253a%252f%252fuonetplus.vulcan.net.pl%252fpowiatgorlicki%252fLoginEndpoint.aspx">Dziennik</a></li>
+								<li><a href="../szkola/ang.html">En</a></li>
+							</ul>
+						</nav>
+					</div>
+					<!-- 
+
+						ZMIANA KOLORU
+
+					<div class="change p-t-10 p-b-10 p-l-20 p-r-20">
+						<label for="checkbox_change" class="toggler">
+							<input type="checkbox" id="checkbox_change" onchange="change_color()">
+							<span class="ball" id="ball"></span>
+							<i class="ri-sun-line sun"></i>
+							<i class="ri-moon-line moon"></i>
+						</label>
+					</div>
+					-->
+					<div class="social flex-w flex-l-m p-r-20">
+						<button class="btn-show-sidebar"></button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<!-- Menu boczne -->
+
+	<aside class="sidebar trans-0-4">
+		<button class="btn-hide-sidebar ti-close color0-hov trans-0-4"></button>
+		<ul class="menu-sidebar p-t-95 p-b-70">
+			<li class="t-center m-b-13"><a href="../index.php" class="txt21">Strona główna</a></li></li>
+			<li class="t-center m-b-13"><a href="../profile/oferta.html" class="txt21">Oferta edukacyjna</a></li>
+			<li class="t-center m-b-13"><a href="../szkola/rekrutacja.html" class="txt21">Rekrutacja</a></li>
+			<li class="t-center m-b-13 drop"><a class="dropa1 txt21" href="">O szkole </a></li>
+				<div class="dropdown" style="position: relative; top:0px">
+					<ul class="listaroz1" style="display:block">
+						<li class="listaroz" style="display: block !important;"><a class="od" href="../szkola/historia.html">Historia szkoły</a></li>
+						<li class="listaroz" style="display: block !important;"><a class="od" href="../szkola/patron.html">Patron szkoły</a></li>
+						<li class="listaroz" style="display: block !important;"><a class="od" href="../szkola/statut.html">Statut szkoły</a></li>
+						<li class="listaroz" style="display: block !important;"><a class="od" href="../szkola/kadrap.php">Kadra pedagogiczna</a></li>
+						<li class="listaroz" style="display: block !important;"><a class="od" href="../szkola/kadraa.php">Kadra administracyjna</a></li>
+						<li class="listaroz" style="display: block !important;"><a class="od" href="../szkola/biblioteka.html">Biblioteka</a></li>
+						<li class="listaroz" style="display: block !important;"><a class="od" href="../szkola/internat.html">Internat</a></li>
+						<li class="listaroz" style="display: block !important;"><a class="od" href="../szkola/rodo.html">Klauzula informacyjna</a></li>
+						<li class="listaroz" style="display: block !important;"><a class="od" href="../szkola/projektyunijne.html">Projekty unijne</a></li>
+					</ul>
+				</div>
+			<li class="t-center m-b-13 drop"><a class="dropa1 txt21" href="">Informacje</a></li>
+				<div class="dropdown dropdown2" style="position: relative; top:0px">
+					<ul  class="listaroz1">
+						<li class="listaroz" style="display: block !important;"><a class="od" href="../strefy/uczeń.html">Strefa ucznia</a></li>
+						<li class="listaroz" style="display: block !important;"><a class="od" href="../strefy/rodzic.html">Strefa rodzica</a></li>
+						<li class="listaroz" style="display: block !important;"><a class="od" href="http://planlekcji.lukasiewicz.gorlice.pl/">Plan lekcji</a></li>
+					</ul>
+				</div>
+			<li class="t-center m-b-13"><a href="../szkola/kontakt.html" class="txt21">Kontakt</a></li>
+			<li class="t-center m-b-33"><a href="../szkola/ang.html" class="txt21">En</a></li>
+			<li class="t-center m-b-33"><a href="https://cufs.vulcan.net.pl/powiatgorlicki/Account/LogOn?ReturnUrl=%2Fpowiatgorlicki%2FFS%2FLS%3Fwa%3Dwsignin1.0%26wtrealm%3Dhttps%253a%252f%252fuonetplus.vulcan.net.pl%252fpowiatgorlicki%252fLoginEndpoint.aspx%26wctx%3Dhttps%253a%252f%252fuonetplus.vulcan.net.pl%252fpowiatgorlicki%252fLoginEndpoint.aspx" class="btn3 flex-c-m size13 txt11 trans-0-4 m-l-r-auto">Dziennik</a></li>
+			<!--
+
+				ZMIANA KOLORU
+
+			<li class="t-center">
+				<label for="checkbox_change" class="btn3 flex-c-m size13 txt11 trans-0-4 m-l-r-auto hov-pointer">
+					<input type="checkbox" id="checkbox_change" onchange="change_color()">
+					<span>Zmień kolor</span>
+				</label>
+			</li>
+			-->
+		</ul>
+	</aside>
+
+	<!-- Menu boczne -->
+
+	<aside class="sidebar trans-0-4">
+		<button class="btn-hide-sidebar ti-close color0-hov trans-0-4"></button>
+		<ul class="menu-sidebar p-t-95 p-b-70">
+			<li class="t-center m-b-13"><a href="index.php" class="txt21">Strona główna</a></li></li>
+			<li class="t-center m-b-13"><a href="oferta.html" class="txt21">Oferta edukacyjna</a></li>
+			<li class="t-center m-b-13"><a href="rekrutacja.html" class="txt21">Rekrutacja</a></li>
+			<li class="t-center m-b-13 drop"><a class="dropa1 txt21" href="">O szkole </a></li>
+				<div class="dropdown" style="position: relative; top:0px">
+					<ul class="listaroz1" style="display:block">
+						<li class="listaroz" style="display: block !important;"><a class="od" href="historia.html">Historia szkoły</a></li>
+						<li class="listaroz" style="display: block !important;"><a class="od" href="patron.html">Patron szkoły</a></li>
+						<li class="listaroz" style="display: block !important;"><a class="od" href="sukcesy.html">Sukcesy szkolne</a></li>
+						<li class="listaroz" style="display: block !important;"><a class="od" href="kadrap.php">Kadra pedagogiczna</a></li>
+						<li class="listaroz" style="display: block !important;"><a class="od" href="kadraa.php">Kadra administracyjna</a></li>
+						<li class="listaroz" style="display: block !important;"><a class="od" href="biblioteka.html">Biblioteka</a></li>
+						<li class="listaroz" style="display: block !important;"><a class="od" href="internat.html">Internat</a></li>
+						<li class="listaroz" style="display: block !important;"><a class="od" href="rodo.html">Klauzula informacyjna</a></li>
+						<li class="listaroz" style="display: block !important;"><a class="od" href="projektyunijne.html">Projekty unijne</a></li>
+					</ul>
+				</div>
+			<li class="t-center m-b-13 drop"><a class="dropa1 txt21" href="">Informacje</a></li>
+				<div class="dropdown dropdown2" style="position: relative; top:0px">
+					<ul  class="listaroz1">
+						<li class="listaroz" style="display: block !important;"><a class="od" href="uczeń.html">Strefa ucznia</a></li>
+						<li class="listaroz" style="display: block !important;"><a class="od" href="rodzic.html">Strefa rodzica</a></li>
+					</ul>
+				</div>
+			<li class="t-center m-b-13"><a href="kontakt.html" class="txt21">Kontakt</a></li>
+			<li class="t-center m-b-33"><a href="ang.html" class="txt21">En</a></li>
+			<li class="t-center m-b-33"><a href="https://cufs.vulcan.net.pl/powiatgorlicki/Account/LogOn?ReturnUrl=%2Fpowiatgorlicki%2FFS%2FLS%3Fwa%3Dwsignin1.0%26wtrealm%3Dhttps%253a%252f%252fuonetplus.vulcan.net.pl%252fpowiatgorlicki%252fLoginEndpoint.aspx%26wctx%3Dhttps%253a%252f%252fuonetplus.vulcan.net.pl%252fpowiatgorlicki%252fLoginEndpoint.aspx" class="btn3 flex-c-m size13 txt11 trans-0-4 m-l-r-auto">Dziennik</a></li>
+			<li class="t-center">
+				<label for="checkbox_change" class="btn3 flex-c-m size13 txt11 trans-0-4 m-l-r-auto hov-pointer">
+					<input type="checkbox" id="checkbox_change" onchange="change_color()">
+					<span>Zmień kolor</span>
+				</label>
+			</li>
+		</ul>
+	</aside>
+	
+	<!-- Główna -->
+    <section>
+        <div style="width: auto; height: 120px; background-color: #012951;"></div>
+    </section>
+	<section>
+		<div style="width: 80%; margin: 50px auto 0 auto;">
+            <div class="t-center">		
+                <h3 class="tit3 t-center m-b-35 m-t-2">Deklaracja Dostępności</h3>
+            </div>
+            <hr id="technikum" style="width: 100%; color: rgba(0, 0, 0, 0.3)">
+            <div>
+                <p style="font-size: 18px;" class="m-b-10">Zespół Szkół Nr 1 im. Ignacego Łukasiewicza w Gorlicach zobowiązuje się zapewnić dostępność swojej strony internetowej zgodnie z przepisami ustawy z dnia 4 kwietnia 2019 r. (Dz. U. 2019 poz.848) o dostępności cyfrowej stron internetowych i aplikacji mobilnych podmiotów publicznych. Oświadczenie w sprawie dostępności ma zastosowanie do strony internetowej lukasiewicz.gorlice.pl </p>
+                <p style="font-size: 18px;" class="m-b-10">Data publikacji deklaracji na stronie internetowej: 26.03.2021 r.</p>
+                <p style="font-size: 18px;" class="m-b-10">Data ostatniej aktualizacji:: 26.03.2021 r.</p>
+
+                <hr style="width: 100%; background-color: rgba(0, 0, 0, 0.2)">
+
+                <p><b style="font-size: 24px;">STATUS POD WZGLĘDEM ZGODNOŚCI Z USTAWĄ:</b></p>
+                <span>
+                    <ul class="lista m-b-10">Strona internetowa jest częściowo zgodna z ustawą z dnia 4 kwietnia 2019 r. (Dz. U. 2019 poz.848) o dostępności cyfrowej stron internetowych i aplikacji mobilnych podmiotów publicznych z powodu niezgodności lub wyłączeń wymienionych poniżej: 
+                        <li class="listali">filmy nie posiadają napisów dla osób głuchych,</li>
+                        <li class="listali">niektóre zdjęcia z wydarzeń nie posiadają pełnych opisów alternatywnych,</li>
+                        <li class="listali">mapy są wyłączone z obowiązku zapewnienia dostępności.</li>
+                    </ul>
+                </span>
+
+                <hr style="width: 100%; background-color: rgba(0, 0, 0, 0.2)">
+
+                <p><b style="font-size: 24px;">INFORMACJE DODATKOWE – STRONA POSIADA: </b></p>
+                <p style="font-size: 18px;" class="m-b-10">Deklarację sporządzono na podstawie samooceny przeprowadzonej przez podmiot publiczny z wykorzystaniem listy kontrolnej udostępnionej przez Ministerstwo Cyfryzacji.</p>
+                <span>
+                    <ul class="lista m-b-10">Narzędzie ułatwień dostępu (widoczne przyciski po prawej stronie przy poruszaniu się po witrynie) a w nich:
+                        <li class="listali">-------------.</li>
+                    </ul>
+                </span>
+                <p style="font-size: 18px;" class="m-b-10">Na stronie internetowej można używać standardowych skrótów klawiaturowych przeglądarki.</p>
+
+                <hr style="width: 100%; background-color: rgba(0, 0, 0, 0.2)">
+
+                <p><b style="font-size: 24px;">DATA SPORZĄDZENIA DEKLARACJI:</b></p>
+                <p style="font-size: 18px;" class="m-b-10">Deklaracje sporządzono dnia : 01.01.2021 r.</p>
+                <p style="font-size: 18px;" class="m-b-10">Deklarację sporządzono na podstawie samooceny przeprowadzonej przez pracownika Zespołu Szkół Nr 1 im. Ignacego Łukasiewicza w Gorlicach.</p>
+
+                <hr style="width: 100%; background-color: rgba(0, 0, 0, 0.2)">
+
+                <p><b style="font-size: 24px;">KONTAKT I INFORMACJE ZWROTNE:</b></p>
+                <p style="font-size: 18px;" class="m-b-10">Osoba do kontaktu w sprawie dostępności: Marcin Alibożek</p>
+                <p style="font-size: 18px;" class="m-b-10">e-mail: ad_marcin@wp.pl</p>
+                <p style="font-size: 18px;" class="m-b-10">lub skontaktować się z sekretariatem szkoły:</p>
+                <p style="font-size: 18px;" class="m-b-10">telefon: (18)353 60 40 </p>
+                <p style="font-size: 18px;" class="m-b-10">e-mail: zs_1@lukasiewicz.gorlice.pl</p>
+                <p style="font-size: 18px;" class="m-b-10">Tą samą drogą można składać wnioski o udostępnienie informacji niedostępnej oraz składać żądania zapewnienia dostępności.</p>
+
+                <hr style="width: 100%; background-color: rgba(0, 0, 0, 0.2)">
+
+                <p><b style="font-size: 24px;">PROCEDURA WNIOSKOWO-SKARGOWA</b></p>
+                <p style="font-size: 18px;" class="m-b-10">Każdy ma prawo do wystąpienia z żądaniem zapewnienia dostępności cyfrowej strony internetowej, aplikacji mobilnej lub jakiegoś ich elementu. Można także zażądać udostępnienia informacji za pomocą alternatywnego sposobu dostępu, na przykład przez odczytanie niedostępnego cyfrowo dokumentu, opisanie zawartości filmu bez audiodeskrypcji itp. Żądanie powinno zawierać dane osoby zgłaszającej żądanie, wskazanie, o którą stronę internetową lub aplikację mobilną chodzi oraz sposób kontaktu. Jeżeli osoba żądająca zgłasza potrzebę otrzymania informacji za pomocą alternatywnego sposobu dostępu, powinna także określić dogodny dla niej sposób przedstawienia tej informacji. Podmiot publiczny powinien zrealizować żądanie niezwłocznie, nie później niż w ciągu 7 dni od dnia wystąpienia z żądaniem. Jeżeli dotrzymanie tego terminu nie jest możliwe, podmiot publiczny niezwłocznie informuje o tym wnoszącego żądanie, kiedy realizacja żądania będzie możliwa, przy czym termin ten nie może być dłuższy niż 2 miesiące od dnia wystąpienia z żądaniem. Jeżeli zapewnienie dostępności cyfrowej nie jest możliwe, podmiot publiczny może zaproponować alternatywny sposób dostępu do informacji. W przypadku, gdy podmiot publiczny odmówi realizacji żądania zapewnienia dostępności lub alternatywnego sposobu dostępu do informacji, wnoszący żądanie możne złożyć skargę w sprawie zapewniana dostępności cyfrowej strony internetowej, aplikacji mobilnej lub elementu strony internetowej, lub aplikacji mobilnej. Po wyczerpaniu wskazanej wyżej procedury można także złożyć wniosek do Rzecznika Praw Obywatelskich: www.rpo.gov.pl</p>
+
+                <hr style="width: 100%; background-color: rgba(0, 0, 0, 0.2)">
+
+                <p><b style="font-size: 24px;">Dostępność architektoniczna</b></p>
+                <p style="font-size: 18px;" class="m-b-10">ZS Nr 1 zlokalizowany jest w dzielnicy "Osiedle Górne", pod adresem: ul. Ks. Kard. Stefana Wyszyńskiego 18, Gorlice 38-300.</p>
+                <p style="font-size: 18px;" class="m-b-10">Zespół Szkół jest częściowo ogrodzony (otwarty fragment ogrodzenia od strony parku), z wjazdem z rampą od strony szkoły oraz od strony internatu, z zamykaną bramą. Występuje osobny parking dla pracowników (bezpośrednio przy budynku szkoły i budynku internatu) i dla uczniów (na terenie utwardzonym, z przejazdem od strony internatu, a korzystanie uwarunkowane jest zgodą dyrektora szkoły).</p>
+
+                <hr style="width: 100%; background-color: rgba(0, 0, 0, 0.2)">
+
+                <p><b style="font-size: 24px;">Budynek szkoły ma wejścia:</b></p>
+                <p style="font-size: 18px;" class="m-b-10">I. – główne - od strony ulicy Wyszyńskiego. Do budynku prowadzą drzwi tradycyjne (jednoskrzydłowe x2), za którymi mieszczą się drzwi wahadłowe. Wejście to nie jest dostosowane dla osób z niepełnosprawnością ruchową, z powodu występujących schodów i braku podjazdu. Zwykle otworzone są jedne jednoskrzydłowe drzwi, ale Istnieje możliwość otworzenia kolejnych drzwi obok.</p>
+                <p style="font-size: 18px;" class="m-b-10">II. – boczne – od strony podwórza szkoły, z boku szkoły. Dostęp do niego mają pracownicy jednostki oraz osoby, które uzyskują takie pozwolenie przy wjeździe na teren szkoły, a także uczniowie przychodzący do szkoły. Drzwi są jednoskrzydłowe. Przy bocznych drzwiach jest metolowy podjazd – pochylnia - dla osób niepełnosprawnych ruchowo. Ułatwieniem dla osób poruszających się na wózku inwalidzkim jest składana ruchoma platforma wewnątrz szkoły, przy schodach prowadzących na parter szkoły (obsługiwana przez pracownika szkoły). Teren parkingu plac jest utwardzony kostka brukową z możliwością podjechania pod pochylnię.</p>
+                <p style="font-size: 18px;" class="m-b-10">III. – drzwi, w budynku hali sportowej, od strony podwórza szkoły. Są to drzwi jednoskrzydłowe, dające szerszą przestrzeń wejściowo/wyjściową po odblokowaniu części drzwi. Dają możliwość wjazdu osobie na wózku inwalidzkim, z dostępnością do sali gimnastycznej.</p>
+                <p style="font-size: 18px;" class="m-b-10">IV. – drzwi, w budynku hali sportowej. Otwierane wg potrzeb, ewakuacyjne, bez udogodnień dla osób z niepełnosprawnością ruchową.</p>
+                <p style="font-size: 18px;" class="m-b-10">V. – drzwi, w łączniku hali sportowej i starej części szkoły, prowadzące na boisko szkolne gry w kosza oraz z możliwością przejścia do internatu szkoły. Z możliwością przejazdu osoby na wózku inwalidzkim na teren boiska.</p>
+                <p style="font-size: 18px;" class="m-b-10">VI. - drzwi, w budynku szkoły, z boku od strony internatu. Otwierane wg potrzeb, ewakuacyjne. Wejście to nie jest przystosowane dla osób z niepełnosprawnością ruchową ze względu na schody. Od strony tego wejścia/wyjścia jest plac manewrowy dla służb ratowniczych.</p>
+
+                <hr style="width: 100%; background-color: rgba(0, 0, 0, 0.2)">
+
+                <p><b style="font-size: 24px;">Budynek internatu szkoły:</b></p>
+                <p style="font-size: 18px;" class="m-b-10">Do budynku internatu prowadzą dwa wejścia; pierwsze główne od ul. Wyszyńskiego, drugie od strony parkingu. Aby wejść wejściem głównym należy pokonać 5 schodów. Drzwi dwuskrzydłowe -wejście przez jedno skrzydło ( możliwość otwarcia drugiego) otwierane ręcznie do korytarza głównego. Do drugiego wejścia od strony parkingu prowadzi 6 schodów, drzwi otwierane ręcznie. Obok tego wejścia jest winda dla niepełnosprawnych z możliwością dotarcia na wszystkie kondygnacje budynku. W budynku internatu znajduje się wejście dla personelu – kuchni. Wejście to jest z poziomu zerowego, drzwi otwierane ręcznie, dwuskrzydłowe – wejście jednym skrzydłem (możliwość otwarcia drugiego). Ta część internatu posiada dodatkowe jedno wyjście ewakuacyjne od strony ogrodu, które nie jest przystosowane dla osób z niepełnosprawnością ruchową ze względu na schody.</p>
+                <p style="font-size: 18px;" class="m-b-10">W drugiej części budynku działalność prowadzą Warsztaty Terapii Zajęciowej. Wejście główne to tej części nie posiada schodów, drzwi otwierane ręcznie, dwuskrzydłowe – wejście przez jedno skrzydło (możliwość otwarcia drugiego). Znajduje się tu również jedno wyjście ewakuacyjne od strony ogrodu. Wyjście to nie jest przystosowane dla osób z niepełnosprawnością ruchową ze względu na schody (7 stopni).</p>
+                <p style="font-size: 18px;" class="m-b-10">W budynku nie funkcjonuje obszar kontroli. Dostępna jest wizualna informacja o rozkładzie pomieszczeń. Brak informacji dotykowej/głosowej. W budynku nie zastosowano urządzeń i innych środków technicznych do obsługi osób słabosłyszących. Dyrektor jednostki wyraża zgodę na wstęp z psem asystującym.</p>
+                <p style="font-size: 18px;" class="m-b-10">Budynek internatu posiada utwardzony kostką parking, na którym wyznaczono trzy miejsca parkingowe dla osób niepełnosprawnych.</p>
+            </div>
+        </div>
+        <div class="col-md-3 p-t-50"></div>
+	</section>
+
+
+	<!-- Stopka -->
+
+	<footer class="bg1">
+		<div class="container p-t-20 p-b-10">
+			<div class="row flex-r-m">
+				<h4 class="c-white m-r-10">Nasze social media:</h4>
+				<a class="social_icon" href="https://www.youtube.com/channel/UCY8TC2U7ylRDfwIyjfSMjEA"><i class="fa fa-youtube fa-3x icon"></i></a>
+				<a class="social_icon" href="https://www.instagram.com/gorkagorlice/"><i id="icon2" class="fa fa-instagram fa-3x icon"></i></a>
+				<a class="social_icon" href="https://web.facebook.com/zs1gorlice/"><i id="icon3" class="fa fa-facebook fa-3x icon"></i></a>
+			</div>
+		</div>
+
+		<div class="container p-t-40 p-b-70">
+			<div class="row">
+				<div class="col-md-10 col-lg-6 p-r-35 p-r-15-lg m-l-r-auto">
+					<div class="wrap-item-mainmenu p-b-22">
+						<h3 class="tit-mainmenu tit10 p-b-25">Oferta edukacyjna</h3>
+						<div class="item-mainmenu m-b-36">
+							<div class="flex-w flex-b m-b-3">
+								<a href="../profile/oferta.html#liceum" class="name-item-mainmenu txt21">-Liceum</a>
+								<div class="line-item-mainmenu bg3-pattern"></div>
+							</div>
+						</div>
+						<div class="item-mainmenu m-b-36">
+							<div class="flex-w flex-b m-b-3">
+								<a href="profile/oferta.html#technikum" class="name-item-mainmenu txt21">-Technikum</a>
+								<div class="line-item-mainmenu bg3-pattern"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-10 col-lg-6 p-l-35 p-l-15-lg m-l-r-auto">
+					<div class="wrap-item-mainmenu p-b-22">
+						<h3 class="tit-mainmenu tit10 p-b-25">Rekrutacja</h3>
+						<div class="item-mainmenu m-b-36">
+							<div class="flex-w flex-b m-b-3">
+								<a href="../szkola/rekrutacja.html#dokumenty" class="name-item-mainmenu txt21">-Wymagane dokumenty</a>
+								<div class="line-item-mainmenu bg3-pattern"></div>
+							</div>
+						</div>
+						<div class="item-mainmenu m-b-36">
+							<div class="flex-w flex-b m-b-3">
+								<a href="../szkola/rekrutacja.html#termin" class="name-item-mainmenu txt21">-Terminarz rekrutacji</a>
+								<div class="line-item-mainmenu bg3-pattern"></div>
+							</div>
+						</div>
+						<div class="item-mainmenu m-b-36">
+							<div class="flex-w flex-b m-b-3">
+								<a href="../szkola/rekrutacja.html#regulamin" class="name-item-mainmenu txt21">-Regulamin rekrutacji</a>
+								<div class="line-item-mainmenu bg3-pattern"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-10 col-lg-6 p-l-35 p-l-15-lg m-l-r-auto">
+					<div class="wrap-item-mainmenu p-b-22">
+						<h3 class="tit-mainmenu tit10 p-b-25">Informacje</h3>
+						<div class="item-mainmenu m-b-36">
+							<div class="flex-w flex-b m-b-3">
+								<a href="../strefy/uczeń.html" class="name-item-mainmenu txt21">-Strefa ucznia</a>
+								<div class="line-item-mainmenu bg3-pattern"></div>
+							</div>
+						</div>
+						<div class="item-mainmenu m-b-36">
+							<div class="flex-w flex-b m-b-3">
+								<a href="../strefy/rodzic.html" class="name-item-mainmenu txt21">-Strefa rodzica</a>
+								<div class="line-item-mainmenu bg3-pattern"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-10 col-lg-6 p-l-35 p-l-15-lg m-l-r-auto">
+					<div class="wrap-item-mainmenu p-b-22">
+						<h3 class="tit-mainmenu tit10 p-b-25">O szkole</h3>
+						<div class="item-mainmenu m-b-36">
+							<div class="flex-w flex-b m-b-3">
+								<span class="name-item-mainmenu txt13">
+									Jesteśmy szkołą z ponad 60-letnią tradycją. Dążymy do tego, by ciągle "być lepszym". Dbamy o wysoką jakość kształcenia oraz o to by nasi uczniowie czuli się bezpiecznie.
+								</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="end-footer bg2">
+			<div class="container">
+				<div class="flex-sb-m flex-w p-t-22 p-b-22">
+					<div class="txt17 p-r-20 p-t-5 p-b-5">
+						Copyright &copy; ZS1 Gorlice <script>document.write(new Date().getFullYear())</script> Wszelkie prawa zastrzeżone!  |  Strona wykonana przez: Maciej Gąsior
+					</div>
+					<div class="txt17 p-r-20 p-t-5 p-b-5">
+						<a href="../szkola/dostęp.html">| Deklaracja dostępności |</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<!-- Powrót do góry -->
+
+	<div class="btn-back-to-top bg0-hov" id="myBtn">
+		<span class="symbol-btn-back-to-top">
+			<i class="fa fa-angle-double-up" aria-hidden="true"></i>
+		</span>
+	</div>
+
+	<!-- Container Selection1 -->
+	<div id="dropDownSelect1"></div>
+
+<!--===============================================================================================-->
+	<script type="text/javascript" src="../vendor/jquery/jquery-3.2.1.min.js"></script>
+<!--===============================================================================================-->
+	<script type="text/javascript" src="../vendor/animsition/js/animsition.min.js"></script>
+<!--===============================================================================================-->
+	<script type="text/javascript" src="../vendor/bootstrap/js/popper.js"></script>
+	<script type="text/javascript" src="../vendor/bootstrap/js/bootstrap.min.js"></script>
+<!--===============================================================================================-->
+	<script type="text/javascript" src="../vendor/select2/select2.min.js"></script>
+<!--===============================================================================================-->
+	<script type="text/javascript" src="../vendor/daterangepicker/moment.min.js"></script>
+	<script type="text/javascript" src="../vendor/daterangepicker/daterangepicker.js"></script>
+<!--===============================================================================================-->
+	<script type="text/javascript" src="../vendor/slick/slick.min.js"></script>
+	<script type="text/javascript" src="../js/slick-custom.js"></script>
+<!--===============================================================================================-->
+	<script type="text/javascript" src="../vendor/parallax100/parallax100.js"></script>
+	<script type="text/javascript">
+        $('.parallax100').parallax100();
+	</script>
+<!--===============================================================================================-->
+	<script type="text/javascript" src="../vendor/countdowntime/countdowntime.js"></script>
+<!--===============================================================================================-->
+	<script type="text/javascript" src="../vendor/lightbox2/js/lightbox.min.js"></script>
+<!--===============================================================================================-->
+	<script src="../js/main.js"></script>
+
+</body>
+</html>

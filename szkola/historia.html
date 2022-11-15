@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+<head>
+	<title>ZS1 :: Historia</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Zespół Szkół Nr 1 im. Ignacego Łukasiewicza w Gorlicach">
+	<meta name="keywords" content="szkoła, gorlice, łukasiewicz, rekrutacja, małopolska">
+
+	<link rel="icon" type="image/png" href="../images/icons/logo.svg"/>
+
+	<link rel="stylesheet" type="text/css" href="../vendor/bootstrap/css/bootstrap.min.css">
+
+	<link rel="stylesheet" type="text/css" href="../fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="../fonts/themify/themify-icons.css">
+	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css">
+
+	<link rel="stylesheet" type="text/css" href="../vendor/animate/animate.css">
+	<link rel="stylesheet" type="text/css" href="../vendor/css-hamburgers/hamburgers.min.css">
+	<link rel="stylesheet" type="text/css" href="../vendor/animsition/css/animsition.min.css">
+	<link rel="stylesheet" type="text/css" href="../vendor/select2/select2.min.css">
+	<link rel="stylesheet" type="text/css" href="../vendor/daterangepicker/daterangepicker.css">
+	<link rel="stylesheet" type="text/css" href="../vendor/slick/slick.css">
+	<link rel="stylesheet" type="text/css" href="../vendor/lightbox2/css/lightbox.min.css">
+
+	<link rel="stylesheet" type="text/css" href="../css/util.css">
+	<link rel="stylesheet" type="text/css" href="../css/main.css">
+	<link rel="stylesheet" type="text/css" href="../css/timeline.css">
+</head>
+<body class="animsition">
+
+	<!-- Nagłówek -->
+
+	<header>
+		<div class="wrap-menu-header gradient1 trans-0-4">
+			<div class="container h-full">
+				<div class="wrap_header trans-0-3">
+					<div style="align-items: center; display: flex;">
+						<div class="float-l m-r-10">
+							<img class="m-b-5" src="../images/icons/godlo.webp" alt="Godło Rzeczpospolitej Polskiej" data-logofixed="../images/icons/godlo.webp"><br>
+							<a href="https://bip.malopolska.pl/zs1gorlice"><img src="../images/icons/bip.webp" alt="Biuletyn Informacji Publicznej" data-logofixed="../images/icons/bip.webp"></a>
+						</div>
+						<div class="logo float-l p-b-5">
+							<a href="../index.php"><img src="../images/icons/logo.svg" alt="Zespół Szkół Nr 1 im. Ignacego Łukasiewicza w Gorlicach" data-logofixed="../images/icons/logo.svg"></a>
+						</div>
+					</div>
+					
+					<!-- Menu główne -->
+
+					<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+					<script src="../js/change-color.js"></script>
+					<script>
+						$(function() {
+							$(".drop").click(function(e){
+								e.preventDefault();
+								if ($(this).next(".dropdown").is(":hidden")) {
+									$(".dropdown").slideUp()
+									$(this).next(".dropdown").slideDown()
+								}
+								else {
+									$(".dropdown").slideUp()
+								}
+							});
+							$(".drop").focusout(function(){
+								$(".dropdown").slideUp()
+							})
+						});
+					</script>
+					<div class="wrap_menu p-l-45 p-l-0-xl">
+						<nav class="menu">
+							<ul class="main_menu">
+								<li><a href="../index.php">Strona główna</a></li>
+								<li><a href="../profile/oferta.html">Oferta edukacyjna</a></li>
+								<li><a href="../szkola/rekrutacja.html">Rekrutacja</a></li>
+								<li class="drop"><a class="dropa" href="">O szkole </a></li>
+									<div class="dropdown">
+										<ul class="listaroz1">
+											<li class="listaroz"><a class="od" href="../szkola/historia.html">Historia szkoły</a></li>
+											<li class="listaroz"><a class="od" href="../szkola/patron.html">Patron szkoły</a></li>
+											<li class="listaroz"><a class="od" href="../szkola/statut.html">Statut szkoły</a></li>
+											<li class="listaroz"><a class="od" href="../szkola/kadrap.php">Kadra pedagogiczna</a></li>
+											<li class="listaroz"><a class="od" href="../szkola/kadraa.php">Kadra administracyjna</a></li>
+											<li class="listaroz"><a class="od" href="../szkola/biblioteka.html">Biblioteka</a></li>
+											<li class="listaroz"><a class="od" href="../szkola/internat.html">Internat</a></li>
+											<li class="listaroz"><a class="od" href="../szkola/rodo.html">Klauzula informacyjna</a></li>
+											<li class="listaroz"><a class="od" href="../szkola/projektyunijne.html">Projekty unijne</a></li>
+										</ul>
+									</div>
+								<li class="drop"><a class="dropa" href="">Informacje</a></li>
+									<div class="dropdown dropdown2">
+										<ul  class="listaroz1">
+											<li class="listaroz"><a class="od" href="../strefy/uczeń.html">Strefa ucznia</a></li>
+											<li class="listaroz"><a class="od" href="../strefy/rodzic.html">Strefa rodzica</a></li>
+											<li class="listaroz"><a class="od" href="http://planlekcji.lukasiewicz.gorlice.pl/">Plan lekcji</a></li>
+										</ul>
+									</div>
+								<li><a href="../szkola/kontakt.html">Kontakt</a></li>
+								<li><a href="https://cufs.vulcan.net.pl/powiatgorlicki/Account/LogOn?ReturnUrl=%2Fpowiatgorlicki%2FFS%2FLS%3Fwa%3Dwsignin1.0%26wtrealm%3Dhttps%253a%252f%252fuonetplus.vulcan.net.pl%252fpowiatgorlicki%252fLoginEndpoint.aspx%26wctx%3Dhttps%253a%252f%252fuonetplus.vulcan.net.pl%252fpowiatgorlicki%252fLoginEndpoint.aspx">Dziennik</a></li>
+								<li><a href="../szkola/ang.html">En</a></li>
+							</ul>
+						</nav>
+					</div>
+					<!-- 
+
+						ZMIANA KOLORU
+
+					<div class="change p-t-10 p-b-10 p-l-20 p-r-20">
+						<label for="checkbox_change" class="toggler">
+							<input type="checkbox" id="checkbox_change" onchange="change_color()">
+							<span class="ball" id="ball"></span>
+							<i class="ri-sun-line sun"></i>
+							<i class="ri-moon-line moon"></i>
+						</label>
+					</div>
+					-->
+					<div class="social flex-w flex-l-m p-r-20">
+						<button class="btn-show-sidebar"></button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<!-- Menu boczne -->
+
+	<aside class="sidebar trans-0-4">
+		<button class="btn-hide-sidebar ti-close color0-hov trans-0-4"></button>
+		<ul class="menu-sidebar p-t-95 p-b-70">
+			<li class="t-center m-b-13"><a href="../index.php" class="txt21">Strona główna</a></li></li>
+			<li class="t-center m-b-13"><a href="../profile/oferta.html" class="txt21">Oferta edukacyjna</a></li>
+			<li class="t-center m-b-13"><a href="../szkola/rekrutacja.html" class="txt21">Rekrutacja</a></li>
+			<li class="t-center m-b-13 drop"><a class="dropa1 txt21" href="">O szkole </a></li>
+				<div class="dropdown" style="position: relative; top:0px">
+					<ul class="listaroz1" style="display:block">
+						<li class="listaroz" style="display: block !important;"><a class="od" href="../szkola/historia.html">Historia szkoły</a></li>
+						<li class="listaroz" style="display: block !important;"><a class="od" href="../szkola/patron.html">Patron szkoły</a></li>
+						<li class="listaroz" style="display: block !important;"><a class="od" href="../szkola/statut.html">Statut szkoły</a></li>
+						<li class="listaroz" style="display: block !important;"><a class="od" href="../szkola/kadrap.php">Kadra pedagogiczna</a></li>
+						<li class="listaroz" style="display: block !important;"><a class="od" href="../szkola/kadraa.php">Kadra administracyjna</a></li>
+						<li class="listaroz" style="display: block !important;"><a class="od" href="../szkola/biblioteka.html">Biblioteka</a></li>
+						<li class="listaroz" style="display: block !important;"><a class="od" href="../szkola/internat.html">Internat</a></li>
+						<li class="listaroz" style="display: block !important;"><a class="od" href="../szkola/rodo.html">Klauzula informacyjna</a></li>
+						<li class="listaroz" style="display: block !important;"><a class="od" href="../szkola/projektyunijne.html">Projekty unijne</a></li>
+					</ul>
+				</div>
+			<li class="t-center m-b-13 drop"><a class="dropa1 txt21" href="">Informacje</a></li>
+				<div class="dropdown dropdown2" style="position: relative; top:0px">
+					<ul  class="listaroz1">
+						<li class="listaroz" style="display: block !important;"><a class="od" href="../strefy/uczeń.html">Strefa ucznia</a></li>
+						<li class="listaroz" style="display: block !important;"><a class="od" href="../strefy/rodzic.html">Strefa rodzica</a></li>
+						<li class="listaroz" style="display: block !important;"><a class="od" href="http://planlekcji.lukasiewicz.gorlice.pl/">Plan lekcji</a></li>
+					</ul>
+				</div>
+			<li class="t-center m-b-13"><a href="../szkola/kontakt.html" class="txt21">Kontakt</a></li>
+			<li class="t-center m-b-33"><a href="../szkola/ang.html" class="txt21">En</a></li>
+			<li class="t-center m-b-33"><a href="https://cufs.vulcan.net.pl/powiatgorlicki/Account/LogOn?ReturnUrl=%2Fpowiatgorlicki%2FFS%2FLS%3Fwa%3Dwsignin1.0%26wtrealm%3Dhttps%253a%252f%252fuonetplus.vulcan.net.pl%252fpowiatgorlicki%252fLoginEndpoint.aspx%26wctx%3Dhttps%253a%252f%252fuonetplus.vulcan.net.pl%252fpowiatgorlicki%252fLoginEndpoint.aspx" class="btn3 flex-c-m size13 txt11 trans-0-4 m-l-r-auto">Dziennik</a></li>
+			<!--
+
+				ZMIANA KOLORU
+
+			<li class="t-center">
+				<label for="checkbox_change" class="btn3 flex-c-m size13 txt11 trans-0-4 m-l-r-auto hov-pointer">
+					<input type="checkbox" id="checkbox_change" onchange="change_color()">
+					<span>Zmień kolor</span>
+				</label>
+			</li>
+			-->
+		</ul>
+	</aside>
+	
+	<!-- Główna -->
+    <section>
+        <div style="width: auto; height: 120px; background-color: #012951;"></div>
+    </section>
+
+	<section>
+		<div style="width: 80%; margin: 50px auto 0 auto;">
+            <header>
+               <h3 id="font">Historia szkoły</h3>
+            </header>
+            <hr>
+			<script>
+				$(function(){
+		
+					window.sr = ScrollReveal();
+		
+					if ($(window).width() < 768) {
+		
+						if ($('.timeline-content').hasClass('js--fadeInLeft')) {
+							$('.timeline-content').removeClass('js--fadeInLeft').addClass('js--fadeInRight');
+						}
+		
+						sr.reveal('.js--fadeInRight', {
+						origin: 'right',
+						distance: '300px',
+						easing: 'ease-in-out',
+						duration: 800,
+						});
+		
+					} else {
+						
+						sr.reveal('.js--fadeInLeft', {
+						origin: 'left',
+						distance: '300px',
+							easing: 'ease-in-out',
+						duration: 800,
+						});
+		
+						sr.reveal('.js--fadeInRight', {
+						origin: 'right',
+						distance: '300px',
+						easing: 'ease-in-out',
+						duration: 800,
+						});
+		
+					}
+		
+					sr.reveal('.js--fadeInLeft', {
+						origin: 'left',
+						distance: '300px',
+							easing: 'ease-in-out',
+						duration: 800,
+					});
+		
+						sr.reveal('.js--fadeInRight', {
+						origin: 'right',
+						distance: '300px',
+						easing: 'ease-in-out',
+						duration: 800,
+					});
+		
+		
+				});
+			</script>
+			<section class="timeline">
+				<div class="container">
+					<div class="timeline-item">
+						<div class="timeline-img"></div>
+						<div class="timeline-content js--fadeInLeft">
+							  <h2><b>Powołanie na Dyrektora szkoły mgr Janusza Krycę</b></h2>
+							  <div class="date">2012</div>
+							  <p>Od 1 września 2012 r. do chwili obecnej funkcję Dyrektora szkoły sprawuje mgr Janusz Kryca.</p>
+						</div>
+					</div>
+
+					<div class="timeline-item">
+						<div class="timeline-img"></div>
+						<div class="timeline-content js--fadeInRight">
+							  <h2><b>Rozwój szkoły</b></h2>
+							  <div class="date">1991 - 1995</div>
+							  <p>W latach 1991 - 1995 w miejsce tradycyjnych kierunków mechanicznych systematycznie wprowadzano nowe kierunki dające możliwość szybszego dostosowania się absolwentów do zmieniającego się rynku pracy. Utworzono między innymi kierunki elektryczne i ochrony środowiska, a także mechaniki i automatyki precyzyjnej.<br><br>Wraz ze zmianą profilu kształcenia i typu szkół wchodzących w skład Zespołu zmienia się dotychczasowa nazwa szkoły na Zespół Szkół Nr l im. Ignacego Łukasiewicza. Liceum Ogólnokształcące wzbogaca się o nowe profile kształcenia, tj.: informatyczno-matematyczny i ekologiczno-chemiczny, z autorskimi programami nauczania informatyki i biologii.<br><br>1 stycznia 1994 roku, decyzją Kuratora Oświaty w Nowym Sączu, ze struktury Zespołu Szkół Nr l zostały wydzielone warsztaty szkolne, które wraz z nauczycielami zawodu i pracownikami, ze względu na zmianę kierunków kształcenia, zostają przekazane do Zespołu Szkół Technicznych im. W. Pola w Gorlicach.<br><br>Od roku szkolnego 1995 - 1996 wprowadzono w Technikum Zawodowym nowe specjalności: energoelektronika i systemy komputerowe. Dla zabezpieczenia specjalistycznego kształcenia zawodowego, nawiązano współpracę z Centrum Kształcenia Praktycznego w Nowym Sączu.</p>
+						</div>
+					</div>
+
+					<div class="timeline-item">
+						<div class="timeline-img"></div>
+						<div class="timeline-content js--fadeInLeft">
+							  <h2><b>Utworzenie Liceum Ogólnokształcącego</b></h2>
+							  <div class="date">1990 - 1991</div>
+							  <p>W roku szkolnym 1990-1991 wraz ze zmianami społeczno-gospodarczymi, a także potrzebami rynku edukacyjnego, decyzją Wojewody Nowosądeckiego utworzono Liceum Ogólnokształcące, do którego w pierwszym roku przyjęto 130 uczniów, do pięciu oddziałów klas pierwszych o profilach: ogólnym, pedagogicznym i ogólnym z rozszerzonym programem nauczania języka niemieckiego.</p>
+						</div>
+					</div>
+
+					<div class="timeline-item">
+						<div class="timeline-img"></div>
+						<div class="timeline-content js--fadeInRight">
+							  <h2><b>Zmiany kierunków kształcenia w naszej szkole</b></h2>
+							  <div class="date">1981 - 1989</div>
+							  <p>Lata 1981-1989 to zmiany kierunków kształcenia w naszej szkole. Utworzono Technikum Odlewnicze po 8-mej klasie, reaktywowano Technikum Mechaniczne o specjalności obróbka skrawaniem, zaś Liceum Zawodowe wzbogaciło się o nowe kierunki kształcenia: operator procesów w przemyśle chemicznym, elektro-mechanik urządzeń przemysłowych, mechanik maszyn i urządzeń precyzyjnych. Poszerzono bazę szkoleniową warsztatów szkolnych, nawiązano współpracę z zakładami pracy, w których uczniowie doskonalili umiejętności praktyczne.</p>
+						</div>
+					</div>
+
+					<div class="timeline-item">
+						<div class="timeline-img"></div>
+						<div class="timeline-content js--fadeInLeft">
+							  <h2><b>Powołania na Dyrektora szkoły mgr Alfreda Biernackiego</b></h2>
+							  <div class="date">1978 - 1981</div>
+							  <p>Od l sierpnia 1978 funkcję dyrektora szkoły pełnił mgr Władysław Szlachta, nauczyciel języka polskiego w Liceum Ogólnokształcącym. Po jego odejściu obowiązki dyrektora do 31 lipca 1981 roku, pełnił zastępca dyrektora inż. Bolesław Gwóźdź<br><br>l sierpnia 1981 na stanowisko dyrektora szkoły został powołany mgr Alfred Biernacki który funkcję dyrektora sprawował do 1 września 2012 r.</p>
+						</div>
+					</div>
+
+					<div class="timeline-item">
+						<div class="timeline-img"></div>
+						<div class="timeline-content js--fadeInRight">
+							  <h2><b>Powołanie Zespółu Szkół Mechanicznych</b></h2>
+							  <div class="date">1975</div>
+							  <p>Z dniem l września 1975 roku, decyzją Kuratora Oświaty w Nowym Sączu, powołano Zespół Szkół Mechanicznych, w skład którego weszły: Technikum Zawodowe, Liceum Zawodowe, Zasadnicza Szkoła Zawodowa, Zasadnicza Szkoła Zawodowa dla młodocianych pracowników, Technikum Zawodowe dla pracujących, Średnie Studium Zawodowe.<br><br>l września 1975 roku odbyła się w naszej szkole wojewódzka uroczystość rozpoczęcia roku szkolnego z udziałem Kuratora Oświaty i Wychowania Bronisława Pasznickiego oraz władz administracyjnych województwa nowosądeckiego i miasta Gorlic, w czasie której nadano szkole imię Ignacego Łukasiewicza. Wręczono sztandar ufundowany przez Komitet Rodzicielski oraz odsłonięto tablicę pamiątkową w 25-lecie utworzenia Zasadniczej Szkoły Metalowo-Odlewniczej.</p>
+						</div>
+					</div>
+
+					<div class="timeline-item">
+						<div class="timeline-img"></div>
+						<div class="timeline-content js--fadeInLeft">
+							  <h2><b>Utworzenie Liceum oraz nowe zawody w Technikum. Nowym Dyrektorem zostaje Stefan Snamina</b></h2>
+							  <div class="date">1970 - 1971</div>
+							  <p>W roku szkolnym 1970 - 1971 utworzono Liceum Zawodowe o kierunku mechanik obróbki skrawaniem, a w Zasadniczej Szkole Zawodowej rozpoczęto kształcenie także w zawodach: ślusarz-spawacz, elektromonter, mechanik maszyn rolniczych.<br><br> Po nagłej śmierci dyrektora mgr Tadeusza Paździory w 1973 roku, nowym dyrektorem zostaje mianowany inż. Stefan Snamina, dotychczasowy kierownik warsztatów szkolnych, a jego zastępcami: inż. Bolesław Gwóźdź i mgr inż. Henryk Szufa. Kierownikiem warsztatów został mgr inż. Kazimierz Tenerowicz.</p>
+						</div>
+					</div>
+
+					<div class="timeline-item">
+						<div class="timeline-img"></div>
+						<div class="timeline-content js--fadeInRight">
+							  <h2><b>Oddanie do użytku młodzieży nowego budynku internatu</b></h2>
+							  <div class="date">1969</div>
+							  <p>l października 1969 roku po kilku latach budowy doglądanej przez Antoniego Łukowskiego - kierownika internatu, oddano do użytku młodzieży nowy budynek internatu wraz ze stołówką. Kierownikiem powstałego internatu został mgr Józef Skocz, dotychczasowy zastępca dyrektora szkoły. Pierwszymi wychowawcami młodzieży w internacie byli: Antoni Łukowski, Jan Brągiel, Zdzisław Chmaj, Henryk Przybycień.</p>
+						</div>
+					</div>
+
+					<div class="timeline-item">
+						<div class="timeline-img"></div>
+						<div class="timeline-content js--fadeInLeft">
+							  <h2><b>Przeniesienie Zasadniczej Szkoły Zawodowej oraz wybór Dyrektora Technikum Mechanicznego</b></h2>
+							  <div class="date">1966</div>
+							  <p>l września 1966 roku Zasadnicza Szkoła Zawodowa Przyzakładowa FMWiG "Glinik" mieszcząca się do tej pory w Domu Kultury "Glinik", przeniosła się wraz jej z dyrektorem Franciszkiem Szydła do budynku Szkoły Podstawowej nr 2 w Gorlicach.<br><br> Dyrektorem Technikum Mechanicznego i Zasadniczej Szkoły Zawodowej, po odejściu Franciszka Szydły, został mgr Tadeusz Paździora, dotychczasowy nauczyciel matematyki w Liceum Pedagogicznym w Gorlicach, a jego zastępcą mgr Józef Skocz.</p>
+						</div>
+					</div>
+
+					<div class="timeline-item">
+						<div class="timeline-img"></div>
+						<div class="timeline-content js--fadeInRight">
+							  <h2><b>Nowa specjalność - obróbka skrawaniem</b></h2>
+							  <div class="date">1964- 1965</div>
+							  <p>W roku szkolnym 1964 - 1965 jest już 30 oddziałów liczących 888 uczniów, w Technikum Mechanicznym zostaje uruchomiona nowa specjalność - obróbka skrawaniem.</p>
+						</div>
+					</div>
+
+					<div class="timeline-item">
+						<div class="timeline-img"></div>
+						<div class="timeline-content timeline-card js--fadeInLeft">
+							  <div class="timeline-img-header" style="background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2)), url('../images/historia/nowemozliwosci.webp') center center no-repeat;">
+								<h2><b>Nowe możliwości szkoły</b></h2>
+							  </div>
+						  <div class="date">1962 - 1963</div>
+							  <p>W roku szkolnym 1962/63 szkoła w dalszym ciągu się rozwija, powstaje aż 25 oddziałów w wyliczonych poprzednio typach szkół. Obok szkoły, systemem gospodarczym, pod opieką mgr Józefa Skoczą i mgr Zygmunta Koczyrkiewicza nauczycieli wychowania fizycznego oraz przy dużym udziale rodziców uczniów powstają boiska szkolne.</p>
+						</div>
+					</div>
+
+					<div class="timeline-item">
+						<div class="timeline-img"></div>
+						<div class="timeline-content js--fadeInRight">
+							  <h2><b>Rozwój szkoły</b></h2>
+							  <div class="date">1961</div>
+							  <p>W 1961 roku zostaje otwarte 5 - letnie Technikum Mechaniczne o specjalności budowa maszyn, które istniało przy naszej szkole w latach 1951 - 1953. Uruchomiono także Technikum Mechaniczne dla pracujących i Technikum Mechaniczne - Punkt Konsultacyjny Rzeszowskiego Technikum Zaocznego.<br><br> Powstaje też Punkt Konsultacyjny Politechniki Krakowskiej - Wydział Mechaniczny z siedzibą w naszej szkole. Zajęcia odbywały się w soboty, niedziele i poniedziałki, a wykładowcy dojeżdżali z Krakowa.</p>
+						</div>
+					</div>
+
+					<div class="timeline-item">
+						<div class="timeline-img"></div>
+						<div class="timeline-content js--fadeInLeft">
+							  <h2><b>Połączenie szkół oraz wybór nowego dyrektora</b></h2>
+							  <div class="date">1957 - 1958</div>
+							  <p>W roku szkolnym 1957 - 1958 Szkoła Naftowa i Szkoła Metalowo-Odlewnicza, zostały połączone w jedną Zasadniczą Szkołę Zawodową, administracyjnie podległą pod Centralny Urząd Szkolnictwa Zawodowego, a od roku 1958 pod Ministerstwo Oświaty. Dyrektorem połączonych szkół został Franciszek Szydło.<br><br>Szczególną rolę w zapewnieniu młodzieży dobrego przygotowania do pracy zawodowej odegrali, w tamtym okresie, wieloletni dyrektorzy szkoły i kierownicy warsztatów szkolnych, a wśród nich m.in.: Adam Smoszna, Czesław Biliński, Franciszek Szydło, Adam Parda, inż. Stefan Snamina, a w latach późniejszych: inż. Bolesław Gwóźdź, mgr inż. Kazimierz Tenerowicz, Aleksander Jamro i wielu znakomitych nauczycieli oraz instruktorów praktycznej nauki zawodu.<br><br> W roku 1958 powstała również Zasadnicza Szkoła Dokształcająca dla młodocianych pracowników oraz dwa oddziały Zasadniczej Szkoły Gastronomicznej dla dziewcząt. W roku szkolnym 1960/61 Zasadnicza Szkoła Gastronomiczna wyodrębniła się i powstała szkoła samodzielna, która przeniosła się do budynku tzw. "Kasyna".<br><br>Rok później powstaje Zasadnicza Szkoła Zawodowa dla młodocianych pracujących przy Fabryce Maszyn i Sprzętu Wiertniczego tzw. Zasadnicza Szkoła Zawodowa Przyzakładowa FMiSW "Glinik". Funkcję kierownika pełnił dyrektor Franciszek Szydło, szkoła liczyła 39 uczniów w klasie o zawodzie tokarz. Po roku oddział przeniósł się do Domu Kultury "Glinik" i stał się samodzielną szkołą.</p>
+						</div>
+					</div>
+
+					<div class="timeline-item">
+						<div class="timeline-img"></div>
+						<div class="timeline-content js--fadeInRight">
+							  <h2><b>Rozbudowa szkoły</b></h2>
+							  <div class="date">1954 - 1956</div>
+							  <p>W latach 1954 - 1956 powstają nowoczesne, jak na owe czasy, warsztaty szkolne z halą obróbki mechanicznej oraz odlewnią żeliwa i metali kolorowych dla potrzeb uczniów Zasadniczej Szkoły Metalowo-Odlewniczej. W tych samych latach rozpoczęła się dalsza rozbudowa budynku Szkoły Naftowej o salę gimnastyczną, aulę i halę warsztatową obróbki ręcznej.</p>
+						</div>
+					</div>
+
+					<div class="timeline-item">
+						<div class="timeline-img"></div>
+						<div class="timeline-content js--fadeInLeft">
+							  <h2><b>Rozwiązanie Technikum Mechanicznego dla dorosłych</b></h2>
+							  <div class="date">1952 - 1953</div>
+							  <p>W roku szkolnym 1952 - 1953 zostało rozwiązane Technikum Mechaniczne dla dorosłych, w tymże roku ustąpił ze stanowiska dyrektora Adam Smoszna, a jego miejsce zajął dotychczasowy kierownik warsztatów szkolnych Czesław Biliński.<br><br> Szkoła przechodzi pod zarząd Ministerstwa Górnictwa. Równocześnie zostaje rozwiązana Zasadnicza Szkoła Naftowa w Jaśle, która wraz z gronem pedagogicznym zostaje przeniesiona do Glinika Mariampolskiego.<br><br> W tym roku szkolnym dla potrzeb młodzieży zbudowana zostaje świetlica szkolna. W roku szkolnym 1954/55 w Zasadniczej Szkole Zawodowej CUN jest 10 oddziałów, l marca 1955 roku odchodzi ze stanowiska dotychczasowy dyrektor Czesław Biliński, a na jego miejsce zostaje powołany Adam Parda. Dnia l lipca 1955 roku Zasadnicza Szkoła Zawodowa Ministerstwa Górnictwa przeszła pod Dyrekcję Okręgową Szkolnictwa Zawodowego w Rzeszowie.</p>
+						</div>
+					</div>
+
+					<div class="timeline-item">
+						<div class="timeline-img"></div>
+						<div class="timeline-content js--fadeInRight">
+							  <h2><b>Likwidacja Gimnazjum Przemysłu Naftowego</b></h2>
+							  <div class="date">1951 - 1952</div>
+							  <p>W roku szkolnym 1951/52 zlikwidowano Gimnazjum Przemysłu Naftowego, a w jego miejsce utworzono Technikum Mechaniczne dla młodzieży podległe Ministerstwu Górnictwa i Zasadniczą Szkołę Zawodową CUN. Do Technikum Mechanicznego rekrutowali się uczniowie klasy III Gimnazjum, klasę czwartą ukończyło 37 uczniów.<br><br>Po roku zlikwidowano Technikum Mechaniczne dla uczniów III klasy Gimnazjum Naftowego.</p>
+						</div>
+					</div>
+
+					<div class="timeline-item">
+						<div class="timeline-img"></div>
+						<div class="timeline-content timeline-card js--fadeInLeft">
+							  <div class="timeline-img-header" style="background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2)), url('../images/historia/szkolazasadniczanaftowa.webp') center center no-repeat;">
+								<h2><b>Utworzenie Zasadniczej Szkoły Zawodowej oraz rozpoczcie budowy szkoły</b></h2>
+							  </div>
+						  <div class="date">1 września 1950</div>
+							  <p>1 września 1950 roku powstaje 2 - letnia Zasadnicza Szkoła Zawodowa Przemysłu Naftowego o dwóch specjalnościach: mechanicznej i kopalnianej. Klasy liczyły 93 uczniów, w tym 10 dziewcząt w klasie mechanicznej. Istniało nadal 3 - letnie Gimnazjum Naftowe Ministerstwa Górnictwa i jedna klasa Technikum Mechanicznego dla dorosłych.<br><br>W 1950 roku z funduszy Ministerstwa Górnictwa rozpoczęto budowę szkoły. Trzy lata później, stanął gotowy gmach szkolny na Osiedlu Robotniczym w Gliniku Mariampolskim - dziś Gorlice, ulica ks. Kardynała Stefana Wyszyńskiego 18. W szkole było 9 sal lekcyjnych, z których 3 przeznaczono na internat.</p>
+						</div>
+					</div>
+
+					<div class="timeline-item">
+						<div class="timeline-img"></div>
+						<div class="timeline-content timeline-card js--fadeInRight">
+							  <div class="timeline-img-header" style="background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2)), url('../images/historia/nowaadministracja.webp') center center no-repeat;">
+								<h2><b>Szkoła przechodzi pod nową administrację - Dyrekcję Okręgową Szkolnictwa Zawodowego w Rzeszowie</b></h2>
+							  </div>
+						  <div class="date">1949 - 1950</div>
+							  <p>W roku szkolnym 1949 - 1950 Szkoła Naftowa także przechodzi pod nową administrację - Dyrekcję Okręgową Szkolnictwa Zawodowego w Rzeszowie. Dyrektor A. Mordawski otrzymuje z Ministerstwa Górnictwa przeniesienie na inne stanowisko w swoim resorcie w Krakowie, nowym dyrektorem szkoły zostaje mianowany Adam Smoszna.<br><br> W tym samym roku szkolnym rozpoczynają naukę w szkole zawodowej pierwsze uczennice: Alicja Bałuka, Barbara Gąsior, Czesława Kędzior, Alicja Pabisz, Stefania Roman, Stanisława Semp, Czesława Świerz, Bronisława Wencel - wszystkie przyjęte do klasy I a Gimnazjum. Były zatem dwie klasy pierwsze oraz po jednej drugiej i trzeciej Gimnazjum Przemysłu Naftowego o profilu mechanicznym - razem 201 uczniów.</p>
+						</div>
+					</div>
+
+					<div class="timeline-item">
+						<div class="timeline-img"></div>
+						<div class="timeline-content js--fadeInLeft">
+							  <h2><b>Otwarcie Szkoły Naftowej</b></h2>
+							  <div class="date">1946 - 1950</div>
+							  <p>Obok Szkoły Naftowej przy Fabryce Maszyn i Narzędzi Wiertniczych funkcjonowała Publiczna Zawodowa Szkoła Dokształcająca z siedzibą w Gorlicach przy Placu Kościelnym Rynek 2, kształcąca młodzież w zawodach rzemieślniczych. Kierownikiem szkoły w tych latach był Marian Marynowski.<br><br>W 1950 roku szkoła ta została przekształcona w Zawodową Szkołę Metalowo - Odlewniczą, przygotowującą młodzież - głównie męską - do zawodów robotniczych: tokarza, ślusarza, odlewnika, fachowców potrzebnych dla rozwijającego się przemysłu w Gorlicach.<br><br>Uczniowie tej szkoły umiejętności praktyczne zdobywali w warsztatach przy ulicy Kołłątaja i odlewni Danieluk - Probulski. Absolwenci szkoły to późniejsi pracownicy warsztatów szkolnych i instruktorzy praktycznej nauki zawodu. Obowiązki dyrektora Szkoły Metalowo - Odlewniczej od l września 1950 roku pełnił Franciszek Szydło. Szkoła podlegała administracyjnie Dyrekcji Okręgowej Szkolnictwa Zawodowego w Rzeszowie.</p>
+						</div>
+					</div>
+
+					<div class="timeline-item">
+						<div class="timeline-img"></div>
+						<div class="timeline-content timeline-card js--fadeInRight">
+							  <div class="timeline-img-header" style="background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2)), url('../images/historia/nowaadministracja.webp') center center no-repeat;">
+								<h2><b>Nowe możliwości szkoły</b></h2>
+							  </div>
+						  <div class="date">1947 - 1948</div>
+							  <p>W roku szkolnym 1947/48 przeniesiono szkołę do własnego budynku zbudowanego na terenie przyfabrycznym, na tzw. "bunkrze", czyli na schronie z czasów z II wojny światowej. Do jej budowy przyczynili się dyrektor Fabryki Maszyn i Narzędzi Wiertniczych inż. T. Łabno, opiekun szkolny Stanisław Pięta - personalny działu kadr oraz prof. inż. J. Wojnar i inż. A. Waliduda z Instytutu Naftowego w Krośnie. W tym też roku szkolnym szkołę przekształcono w 3 - letnie Gimnazjum Przemysłu Naftowego Fabryki Maszyn i Narzędzi Wiertniczych w Gliniku Mariampolskim.<br><br>Powstały dwie pierwsze klasy: jedna z zeszłorocznej przygotowawczej uczniów starszych, a druga złożona z uczniów młodszych - na podbudowie siedmioletniej szkoły podstawowej. Łącznie uczęszczało do szkoły 158 uczniów. Władzę administracyjną sprawował nad szkołą Centralny Zarząd Przemysłu Naftowego z siedzibą w Krakowie podległy Ministerstwu Górnictwa. Opiekunami szkoły była Fabryka Maszyn i Narzędzi Wiertniczych oraz Instytut Naftowy w Krośnie.</p>
+						</div>
+					</div>
+
+					<div class="timeline-item">
+						<div class="timeline-img"></div>
+						<div class="timeline-content timeline-card js--fadeInLeft">
+							  <div class="timeline-img-header" style="color:black; background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0)), url('../images/historia/otwarcieszkolynaftowej.webp') center center no-repeat;">
+								<h2><b>Otwarcie Szkoły Naftowej</b></h2>
+							  </div>
+						  <div class="date">1 Październik 1946</div>
+							  <p>Przy Fabryce Maszyn i Narzędzi Wiertniczych otwarta zostaje Szkoła Naftowa w Gliniku Mariampolskim. Inicjatorem i założycielem Szkoły był Instytut Naftowy w Krośnie, a opiekunami doc. inż. A. Waliduda oraz prof. inż. Józef Wojnar - dyrektor Instytutu Naftowego. Administracyjnie szkoła podległa Wydziałowi Szkolnictwa zawodowego Ministerstwa Przemysłu Naftowego.<br><br>Pierwszym dyrektorem szkoły byt ówczesny dyrektor FM i NW inż. T. Łabno, a w jego imieniu organizował szkołą i był jej faktycznym dyrektorem Aleksander Mordawski.</p>
+						</div>
+					</div>
+				</div>
+			</section>
+        </div>
+	</section>
+
+	<!-- Stopka -->
+
+	<footer class="bg1">
+		<div class="container p-t-20 p-b-10">
+			<div class="row flex-r-m">
+				<h4 class="c-white m-r-10">Nasze social media:</h4>
+				<a class="social_icon" href="https://www.youtube.com/channel/UCY8TC2U7ylRDfwIyjfSMjEA"><i class="fa fa-youtube fa-3x icon"></i></a>
+				<a class="social_icon" href="https://www.instagram.com/gorkagorlice/"><i id="icon2" class="fa fa-instagram fa-3x icon"></i></a>
+				<a class="social_icon" href="https://web.facebook.com/zs1gorlice/"><i id="icon3" class="fa fa-facebook fa-3x icon"></i></a>
+			</div>
+		</div>
+
+		<div class="container p-t-40 p-b-70">
+			<div class="row">
+				<div class="col-md-10 col-lg-6 p-r-35 p-r-15-lg m-l-r-auto">
+					<div class="wrap-item-mainmenu p-b-22">
+						<h3 class="tit-mainmenu tit10 p-b-25">Oferta edukacyjna</h3>
+						<div class="item-mainmenu m-b-36">
+							<div class="flex-w flex-b m-b-3">
+								<a href="../profile/oferta.html#liceum" class="name-item-mainmenu txt21">-Liceum</a>
+								<div class="line-item-mainmenu bg3-pattern"></div>
+							</div>
+						</div>
+						<div class="item-mainmenu m-b-36">
+							<div class="flex-w flex-b m-b-3">
+								<a href="profile/oferta.html#technikum" class="name-item-mainmenu txt21">-Technikum</a>
+								<div class="line-item-mainmenu bg3-pattern"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-10 col-lg-6 p-l-35 p-l-15-lg m-l-r-auto">
+					<div class="wrap-item-mainmenu p-b-22">
+						<h3 class="tit-mainmenu tit10 p-b-25">Rekrutacja</h3>
+						<div class="item-mainmenu m-b-36">
+							<div class="flex-w flex-b m-b-3">
+								<a href="../szkola/rekrutacja.html#dokumenty" class="name-item-mainmenu txt21">-Wymagane dokumenty</a>
+								<div class="line-item-mainmenu bg3-pattern"></div>
+							</div>
+						</div>
+						<div class="item-mainmenu m-b-36">
+							<div class="flex-w flex-b m-b-3">
+								<a href="../szkola/rekrutacja.html#termin" class="name-item-mainmenu txt21">-Terminarz rekrutacji</a>
+								<div class="line-item-mainmenu bg3-pattern"></div>
+							</div>
+						</div>
+						<div class="item-mainmenu m-b-36">
+							<div class="flex-w flex-b m-b-3">
+								<a href="../szkola/rekrutacja.html#regulamin" class="name-item-mainmenu txt21">-Regulamin rekrutacji</a>
+								<div class="line-item-mainmenu bg3-pattern"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-10 col-lg-6 p-l-35 p-l-15-lg m-l-r-auto">
+					<div class="wrap-item-mainmenu p-b-22">
+						<h3 class="tit-mainmenu tit10 p-b-25">Informacje</h3>
+						<div class="item-mainmenu m-b-36">
+							<div class="flex-w flex-b m-b-3">
+								<a href="../strefy/uczeń.html" class="name-item-mainmenu txt21">-Strefa ucznia</a>
+								<div class="line-item-mainmenu bg3-pattern"></div>
+							</div>
+						</div>
+						<div class="item-mainmenu m-b-36">
+							<div class="flex-w flex-b m-b-3">
+								<a href="../strefy/rodzic.html" class="name-item-mainmenu txt21">-Strefa rodzica</a>
+								<div class="line-item-mainmenu bg3-pattern"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-10 col-lg-6 p-l-35 p-l-15-lg m-l-r-auto">
+					<div class="wrap-item-mainmenu p-b-22">
+						<h3 class="tit-mainmenu tit10 p-b-25">O szkole</h3>
+						<div class="item-mainmenu m-b-36">
+							<div class="flex-w flex-b m-b-3">
+								<span class="name-item-mainmenu txt13">
+									Jesteśmy szkołą z ponad 60-letnią tradycją. Dążymy do tego, by ciągle "być lepszym". Dbamy o wysoką jakość kształcenia oraz o to by nasi uczniowie czuli się bezpiecznie.
+								</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="end-footer bg2">
+			<div class="container">
+				<div class="flex-sb-m flex-w p-t-22 p-b-22">
+					<div class="txt17 p-r-20 p-t-5 p-b-5">
+						Copyright &copy; ZS1 Gorlice <script>document.write(new Date().getFullYear())</script> Wszelkie prawa zastrzeżone!  |  Strona wykonana przez: Maciej Gąsior
+					</div>
+					<div class="txt17 p-r-20 p-t-5 p-b-5">
+						<a href="../szkola/dostęp.html">| Deklaracja dostępności |</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<!-- Powrót do góry -->
+
+	<div class="btn-back-to-top bg0-hov" id="myBtn">
+		<span class="symbol-btn-back-to-top">
+			<i class="fa fa-angle-double-up" aria-hidden="true"></i>
+		</span>
+	</div>
+
+	<!-- Container Selection1 -->
+	<div id="dropDownSelect1"></div>
+
+<!--===============================================================================================-->
+	<script type="text/javascript" src="../vendor/jquery/jquery-3.2.1.min.js"></script>
+<!--===============================================================================================-->
+	<script type="text/javascript" src="../vendor/animsition/js/animsition.min.js"></script>
+<!--===============================================================================================-->
+	<script type="text/javascript" src="../vendor/bootstrap/js/popper.js"></script>
+	<script type="text/javascript" src="../vendor/bootstrap/js/bootstrap.min.js"></script>
+<!--===============================================================================================-->
+	<script type="text/javascript" src="../vendor/select2/select2.min.js"></script>
+<!--===============================================================================================-->
+	<script type="text/javascript" src="../vendor/daterangepicker/moment.min.js"></script>
+	<script type="text/javascript" src="../vendor/daterangepicker/daterangepicker.js"></script>
+<!--===============================================================================================-->
+	<script type="text/javascript" src="../vendor/slick/slick.min.js"></script>
+	<script type="text/javascript" src="../js/slick-custom.js"></script>
+<!--===============================================================================================-->
+	<script type="text/javascript" src="../vendor/parallax100/parallax100.js"></script>
+	<script type="text/javascript">
+        $('.parallax100').parallax100();
+	</script>
+<!--===============================================================================================-->
+	<script type="text/javascript" src="../vendor/countdowntime/countdowntime.js"></script>
+<!--===============================================================================================-->
+	<script type="text/javascript" src="../vendor/lightbox2/js/lightbox.min.js"></script>
+<!--===============================================================================================-->
+	<script src="../js/main.js"></script>
+	<script src="https://unpkg.com/scrollreveal"></script>
+
+</body>
+</html>

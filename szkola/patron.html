@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+<head>
+	<title>ZS1 :: Patron</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Zespół Szkół Nr 1 im. Ignacego Łukasiewicza w Gorlicach">
+	<meta name="keywords" content="szkoła, gorlice, łukasiewicz, rekrutacja, małopolska">
+
+	<link rel="icon" type="image/png" href="../images/icons/logo.svg"/>
+
+	<link rel="stylesheet" type="text/css" href="../vendor/bootstrap/css/bootstrap.min.css">
+
+	<link rel="stylesheet" type="text/css" href="../fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="../fonts/themify/themify-icons.css">
+	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css">
+
+	<link rel="stylesheet" type="text/css" href="../vendor/animate/animate.css">
+	<link rel="stylesheet" type="text/css" href="../vendor/css-hamburgers/hamburgers.min.css">
+	<link rel="stylesheet" type="text/css" href="../vendor/animsition/css/animsition.min.css">
+	<link rel="stylesheet" type="text/css" href="../vendor/select2/select2.min.css">
+	<link rel="stylesheet" type="text/css" href="../vendor/daterangepicker/daterangepicker.css">
+	<link rel="stylesheet" type="text/css" href="../vendor/slick/slick.css">
+	<link rel="stylesheet" type="text/css" href="../vendor/lightbox2/css/lightbox.min.css">
+
+	<link rel="stylesheet" type="text/css" href="../css/util.css">
+	<link rel="stylesheet" type="text/css" href="../css/main.css">
+	<link rel="stylesheet" type="text/css" href="../css/timeline.css">
+</head>
+<body class="animsition">
+
+	<!-- Nagłówek -->
+
+	<header>
+		<div class="wrap-menu-header gradient1 trans-0-4">
+			<div class="container h-full">
+				<div class="wrap_header trans-0-3">
+					<div style="align-items: center; display: flex;">
+						<div class="float-l m-r-10">
+							<img class="m-b-5" src="../images/icons/godlo.webp" alt="Godło Rzeczpospolitej Polskiej" data-logofixed="../images/icons/godlo.webp"><br>
+							<a href="https://bip.malopolska.pl/zs1gorlice"><img src="../images/icons/bip.webp" alt="Biuletyn Informacji Publicznej" data-logofixed="../images/icons/bip.webp"></a>
+						</div>
+						<div class="logo float-l p-b-5">
+							<a href="../index.php"><img src="../images/icons/logo.svg" alt="Zespół Szkół Nr 1 im. Ignacego Łukasiewicza w Gorlicach" data-logofixed="../images/icons/logo.svg"></a>
+						</div>
+					</div>
+					
+					<!-- Menu główne -->
+
+					<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+					<script src="../js/change-color.js"></script>
+					<script>
+						$(function() {
+							$(".drop").click(function(e){
+								e.preventDefault();
+								if ($(this).next(".dropdown").is(":hidden")) {
+									$(".dropdown").slideUp()
+									$(this).next(".dropdown").slideDown()
+								}
+								else {
+									$(".dropdown").slideUp()
+								}
+							});
+							$(".drop").focusout(function(){
+								$(".dropdown").slideUp()
+							})
+						});
+					</script>
+					<div class="wrap_menu p-l-45 p-l-0-xl">
+						<nav class="menu">
+							<ul class="main_menu">
+								<li><a href="../index.php">Strona główna</a></li>
+								<li><a href="../profile/oferta.html">Oferta edukacyjna</a></li>
+								<li><a href="../szkola/rekrutacja.html">Rekrutacja</a></li>
+								<li class="drop"><a class="dropa" href="">O szkole </a></li>
+									<div class="dropdown">
+										<ul class="listaroz1">
+											<li class="listaroz"><a class="od" href="../szkola/historia.html">Historia szkoły</a></li>
+											<li class="listaroz"><a class="od" href="../szkola/patron.html">Patron szkoły</a></li>
+											<li class="listaroz"><a class="od" href="../szkola/statut.html">Statut szkoły</a></li>
+											<li class="listaroz"><a class="od" href="../szkola/kadrap.php">Kadra pedagogiczna</a></li>
+											<li class="listaroz"><a class="od" href="../szkola/kadraa.php">Kadra administracyjna</a></li>
+											<li class="listaroz"><a class="od" href="../szkola/biblioteka.html">Biblioteka</a></li>
+											<li class="listaroz"><a class="od" href="../szkola/internat.html">Internat</a></li>
+											<li class="listaroz"><a class="od" href="../szkola/rodo.html">Klauzula informacyjna</a></li>
+											<li class="listaroz"><a class="od" href="../szkola/projektyunijne.html">Projekty unijne</a></li>
+										</ul>
+									</div>
+								<li class="drop"><a class="dropa" href="">Informacje</a></li>
+									<div class="dropdown dropdown2">
+										<ul  class="listaroz1">
+											<li class="listaroz"><a class="od" href="../strefy/uczeń.html">Strefa ucznia</a></li>
+											<li class="listaroz"><a class="od" href="../strefy/rodzic.html">Strefa rodzica</a></li>
+											<li class="listaroz"><a class="od" href="http://planlekcji.lukasiewicz.gorlice.pl/">Plan lekcji</a></li>
+										</ul>
+									</div>
+								<li><a href="../szkola/kontakt.html">Kontakt</a></li>
+								<li><a href="https://cufs.vulcan.net.pl/powiatgorlicki/Account/LogOn?ReturnUrl=%2Fpowiatgorlicki%2FFS%2FLS%3Fwa%3Dwsignin1.0%26wtrealm%3Dhttps%253a%252f%252fuonetplus.vulcan.net.pl%252fpowiatgorlicki%252fLoginEndpoint.aspx%26wctx%3Dhttps%253a%252f%252fuonetplus.vulcan.net.pl%252fpowiatgorlicki%252fLoginEndpoint.aspx">Dziennik</a></li>
+								<li><a href="../szkola/ang.html">En</a></li>
+							</ul>
+						</nav>
+					</div>
+					<!-- 
+
+						ZMIANA KOLORU
+
+					<div class="change p-t-10 p-b-10 p-l-20 p-r-20">
+						<label for="checkbox_change" class="toggler">
+							<input type="checkbox" id="checkbox_change" onchange="change_color()">
+							<span class="ball" id="ball"></span>
+							<i class="ri-sun-line sun"></i>
+							<i class="ri-moon-line moon"></i>
+						</label>
+					</div>
+					-->
+					<div class="social flex-w flex-l-m p-r-20">
+						<button class="btn-show-sidebar"></button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<!-- Menu boczne -->
+
+	<aside class="sidebar trans-0-4">
+		<button class="btn-hide-sidebar ti-close color0-hov trans-0-4"></button>
+		<ul class="menu-sidebar p-t-95 p-b-70">
+			<li class="t-center m-b-13"><a href="../index.php" class="txt21">Strona główna</a></li></li>
+			<li class="t-center m-b-13"><a href="../profile/oferta.html" class="txt21">Oferta edukacyjna</a></li>
+			<li class="t-center m-b-13"><a href="../szkola/rekrutacja.html" class="txt21">Rekrutacja</a></li>
+			<li class="t-center m-b-13 drop"><a class="dropa1 txt21" href="">O szkole </a></li>
+				<div class="dropdown" style="position: relative; top:0px">
+					<ul class="listaroz1" style="display:block">
+						<li class="listaroz" style="display: block !important;"><a class="od" href="../szkola/historia.html">Historia szkoły</a></li>
+						<li class="listaroz" style="display: block !important;"><a class="od" href="../szkola/patron.html">Patron szkoły</a></li>
+						<li class="listaroz" style="display: block !important;"><a class="od" href="../szkola/statut.html">Statut szkoły</a></li>
+						<li class="listaroz" style="display: block !important;"><a class="od" href="../szkola/kadrap.php">Kadra pedagogiczna</a></li>
+						<li class="listaroz" style="display: block !important;"><a class="od" href="../szkola/kadraa.php">Kadra administracyjna</a></li>
+						<li class="listaroz" style="display: block !important;"><a class="od" href="../szkola/biblioteka.html">Biblioteka</a></li>
+						<li class="listaroz" style="display: block !important;"><a class="od" href="../szkola/internat.html">Internat</a></li>
+						<li class="listaroz" style="display: block !important;"><a class="od" href="../szkola/rodo.html">Klauzula informacyjna</a></li>
+						<li class="listaroz" style="display: block !important;"><a class="od" href="../szkola/projektyunijne.html">Projekty unijne</a></li>
+					</ul>
+				</div>
+			<li class="t-center m-b-13 drop"><a class="dropa1 txt21" href="">Informacje</a></li>
+				<div class="dropdown dropdown2" style="position: relative; top:0px">
+					<ul  class="listaroz1">
+						<li class="listaroz" style="display: block !important;"><a class="od" href="../strefy/uczeń.html">Strefa ucznia</a></li>
+						<li class="listaroz" style="display: block !important;"><a class="od" href="../strefy/rodzic.html">Strefa rodzica</a></li>
+						<li class="listaroz" style="display: block !important;"><a class="od" href="http://planlekcji.lukasiewicz.gorlice.pl/">Plan lekcji</a></li>
+					</ul>
+				</div>
+			<li class="t-center m-b-13"><a href="../szkola/kontakt.html" class="txt21">Kontakt</a></li>
+			<li class="t-center m-b-33"><a href="../szkola/ang.html" class="txt21">En</a></li>
+			<li class="t-center m-b-33"><a href="https://cufs.vulcan.net.pl/powiatgorlicki/Account/LogOn?ReturnUrl=%2Fpowiatgorlicki%2FFS%2FLS%3Fwa%3Dwsignin1.0%26wtrealm%3Dhttps%253a%252f%252fuonetplus.vulcan.net.pl%252fpowiatgorlicki%252fLoginEndpoint.aspx%26wctx%3Dhttps%253a%252f%252fuonetplus.vulcan.net.pl%252fpowiatgorlicki%252fLoginEndpoint.aspx" class="btn3 flex-c-m size13 txt11 trans-0-4 m-l-r-auto">Dziennik</a></li>
+			<!--
+
+				ZMIANA KOLORU
+
+			<li class="t-center">
+				<label for="checkbox_change" class="btn3 flex-c-m size13 txt11 trans-0-4 m-l-r-auto hov-pointer">
+					<input type="checkbox" id="checkbox_change" onchange="change_color()">
+					<span>Zmień kolor</span>
+				</label>
+			</li>
+			-->
+		</ul>
+	</aside>
+	
+	<!-- Główna -->
+
+    <section>
+        <div style="width: auto; height: 120px; background-color: #012951;"></div>
+    </section>
+	<section>
+		<div style="width: 80%; margin: 50px auto 0 auto;">
+            <header>
+               <h3 id="font">Patron szkoły</h3>
+            </header>
+            <hr>
+            <p class="patronhis"><img src="../images/patron/patron1.webp" style="float: left; border: 0; box-sizing: border-box;" alt="">Jan Boży, Józef Ignacy Łada Łukasiewicz urodził się 8 marca 1822 roku w Zadusznikach nad Wisłą. Ojciec Józef i matka Apolonia z Kniaziów Świętopełków utrzymywali się z dzierżawy wsi - Zaduszniki. W latach 1832-1836 Łukasiewicz pobierał nauki u Ojców Pijarów w Rzeszowie, a następnie rozpoczął praktykę w aptece Antoniego Swobody w Łańcucie.</p>
+            <p class="patronhis"> W 1846 roku przeniósł się na dalszą praktykę do apteki Hubala w Rzeszowie. Tutaj w Rzeszowie prowadził przygotowania do powstania narodowego w Galicji. Za tę działalność został aresztowany i przebywał dwa lata w więzieniu u "Karmelitów" we Lwowie. Gdy w 1848 roku opuścił więzienie podjął pracę w aptece Piotra Mikolascha. Następnie udał się do Krakowa, gdzie w 1850 roku rozpoczął jednoroczny kurs farmaceutyczny na Uniwersytecie Jagiellońskim.</p>
+            <p class="patronhis">Celem pogłębienia studiów farmaceutycznych przeniósł się Łukasiewicz na Uniwersytet Wiedeński, tu też, na wydziale medyczno-chirurgicznym, uzyskał w 1852 roku dyplom magistra farmacji.</p><br>
+            <p class="patronhis"><img src="../images/patron/patron2.webp" style="float: right; border: 0; box-sizing: border-box;" alt="">Mając już nabyte podczas studiów podstawy teoretyczne przystąpił wspólnie z kolegą Janem Zehem do prowadzenia doświadczeń nad destylacją ropy, otrzymując w jej wyniku naftę nadającą się do oświetlenia. Pierwszy model lampy, w której jako substancja oświetleniowa została wykorzystana nafta, zabłysnął w oknie wystawowym apteki Mikolascha, w marcu 1853 roku. W tym też roku udało się Łukasiewiczowi namówić dyrektora szpitala powszechnego we Lwowie, aby wprowadził oświetlenie naftowe. Szpital został oświetlony w dniu 31 lipca 1853 roku. Od tej daty liczy się początek przemysłu naftowego w Galicji i świecie.</p>
+            <p class="patronhis">Początkowe dochody ze sprzedaży nafty były niskie, dlatego też Łukasiewicz nie rozstawał się z aptekarstwem, ciągle doskonaląc swój wynalazek. Pragnąc pogłębić zakres prac badawczych nad destylacją ropy, w 1853 roku przeniósł się do Gorlic, gdzie objął stanowisko prowizora w aptece należącej do Ludwiki Bartkowej. Apteka, w której pracował Łukasiewicz, mieściła się w obecnym budynku Urzędu Miasta. </p>
+            <p class="patronhis"> Podjęcie tej decyzji spowodowane było tym, iż w rejonie Gorlic, m.in. na terenie Kobylanki znajdowały się odkryte złoża ropy. W ciągu całego okresu pobytu w Gorlicach penetrował okolice w poszukiwaniu ropy naftowej. Zapoznał się z fabryką asfaltu Stanisława Jabłonowskiego w Kobylance, a szczególnie ze sposobem produkcji asfaltu. Na podstawie informacji uzyskanych w Kobylance dotarł do Jana Szymono-wicza - właściciela dóbr w Sękowej, w Siarach i Sokole, który ze swych kopanych studzien ropnych zaopatrywał fabrykę w Kobylance. </p><br>
+            <p class="patronhis"><img src="../images/patron/patron3.webp" style="float: left; border: 0; box-sizing: border-box;" alt="">Łukasiewicz prowadził liczne eksperymenty z ropą przy współpracy z laborantem aptecznym Jakubem Kozikiem z Sokoła. Dużo też pracy przeznaczał na doskonalenie lampy naftowej. W 1854 roku w Gorlicach, przy skrzyżowaniu dróg do Sękowej i Wysowej zapalona została pierwsza w świecie uliczna lampa naftowa.</p>
+            <p class="patronhis">Działalność Łukasiewicza zmierzała także do rozwoju przemysłu naftowego w rejonie gorlickim. Zakładał, przy współudziale m.in. Marcelego Groblewskiego, Jana Szymonowicza, spółki kopalniane w Bystrej i w Sękowej. W Męcinie Wielkiej nabył własną kopalnię, został udziałowcem budowy rafinerii w Ropie i w Siarach. </p>
+            <p class="patronhis">W czasie pobytu w Gorlicach pomagał bezinteresownie ludności w okresie epidemii cholery w 1855 roku. </p>
+            <p class="patronhis">W dniu 20 kwietnia 1857 roku w kościele parafialnym w Gorlicach zawarł związek małżeński ze swą siostrzenicą - Honoratą Stacherską, po uzyskaniu zgody papieża. Mieli córkę Mariannę, która zmarła po 22 miesiącach życia, 7 grudnia 1859 roku. </p>
+            <p class="patronhis">W 1858 roku I. Łukasiewicz opuścił Gorlice i przeniósł się do Jasła. Właśnie tutaj, w tym samym roku, w czasie wystawy organizowanej przez Krakowskie Towarzystwo Rolno-Gospodarcze otrzymał dyplom pochwalny za ekspozycję wyrobów naftowych, nafty świetlnej, benzyny, wazeliny, itp. wyprodukowanych w Gorlicach. </p>
+            <p class="patronhis"> W latach 1861-1863 Łukasiewicz buduje rafinerię i oddaje się wyłącznie sprawom przemysłu naftowego. Zamieszkał w Chorkówce. Tutaj zakłada kasy brackie, prowadzi działalność charytatywną w zakresie udzielania zapomóg i zasiłków. Jako radny powiatowy przez 14 lat przyczynił się do zakładania burs, ochronek oraz budowy dróg i mostów. W jego domu znajdowali schronienie emigranci i uczestnicy powstania styczniowego, których wspomagał własnymi funduszami. </p>
+            <p class="patronhis">Ignacy Łukasiewicz był fundatorem szkół powszechnych w Bóbrce, Chorkówce, Żeglcach i Zręcinie. W Chorkówce zakłada szkołę koronkarską prowadzoną przez żonę Honoratę. Podejmuje starania założenia w Bóbrce szkoły górniczej. Szkoła ta powstaje jednak w Ropiance koło Dukli, następnie przeniesiona zostaje do Wietrzna i Borysławia. Absolwenci tych szkół jako wiertacze i nadzorcy kopalni wsławili imię Polaków na obu kontynentach Ameryki, w wielu krajach Europy, Azji i Wysp Pacyfiku.</p>
+            <p class="patronhis">W roku 1876 I. Łukasiewicz zostaje wybrany posłem do Sejmu Krajowego, gdzie prowadzi wielostronną działalność w komisjach m.in. górniczej, kultury, podatków. </p>
+            <p class="patronhis">31.07.1878 roku podczas uroczystości rocznicy 25-lecia zapalenia pierwszej lampy naftowej we Lwowie, Łukasiewicz otrzymuje od społeczeństwa polskiego złoty medal i album. W 1880 roku staje na czele Krajowego Towarzystwa Naftowego broniącego rodzimych przedsiębiorstw naftowych przed obcym kapitałem. Siedzibą Towarzystwa były Gorlice. </p>
+            <p class="patronhis">Dzięki Łukasiewiczowi w 1882 roku powstało polskie czasopismo naftowe "Górnik", wydawane w Gorlicach do 1886 roku. Pierwszy numer ukazuje się na tydzień przed śmiercią pioniera przemysłu naftowego.</p>
+            <p class="patronhis">Ignacy Łukasiewicz pracował do ostatnich dni życia, zmarł po krótkiej chorobie 7.01.1882 roku w Chorkówce i został pochowany na cmentarzu w Zręcinie. W uroczystościach pogrzebowych wzięły udział wielotysięczne rzesze ludzi. Pozostał w pamięci następnych pokoleń jako dobrze zasłużony narodowi.</p>
+            <p class="patronhis">Łukasiewicz za swoją działalność charytatywną otrzymał od papieża Piusa IX w 1873 roku tytuł szambelana papieskiego i order Świętego Grzegorza. Powszechnie nazywany był "Ojcem Łukasiewiczem" i w pełni sobie na ten tytuł zasłużył. Pamięć o Ignacym Łukasiewiczu została zachowana dzięki jego pionierskim osiągnięciom w udoskonaleniu lampy naftowej, rozwoju przemysłu naftowego a także jego postawie jako patrioty i społecznika. W uznaniu tych zasług nadano imię Ignacego Łukasiewicza uczelniom, szkołom, ulicą.</p>
+            <p class="patronhis">Od 1 września 1975 roku Ignacy Łukasiewicz - patriota, naukowiec, wynalazca, konstruktor i pionier przemysłu naftowego jest patronem naszej szkoły.</p>
+        </div>
+        <hr style="width: 90%; background-color: rgba(0, 0, 0, 0.3); margin: auto;"></hr>
+        <div style="width: 80%; margin: 20px auto 0 auto;">
+            <h2 class="t-center" style="margin-bottom: 10px;">Śladami Ignacego Łukasiewicza </h2>
+            <p class="patronhis">Zespół Szkół Nr 1 im. Ignacego Łukasiewicza w Gorlicach jak i 30 placówek oświatowych z całej polski noszących imię tego wybitnego twórcy przemysłu naftowego, należy do Rady Szkół im. Ignacego Łukasiewicza, która jest organem doradczym Stowarzyszenia Naukowo - Technicznego Inżynierów i Techników Przemysłu Naftowego i Gazowniczego.</p>
+            <p class="patronhis">Organem wykonawczym Rady jest siedmioosobowe Prezydium, wybierane w czasie trwania Sesji Szkół im. Ignacego Łukasiewicza na okres czterech lat. Obecnie przewodniczącą Prezydium jest pani Joanna Kubit - Dyrektor Zespołu Szkół Ponadgimnazjalnych Nr 4 w Krośnie, a Członkiem Prezydium z naszej Szkoły jest pani Alina Mrozek.</p>
+            <p class="patronhis">Przedstawiciele Szkół im. Ignacego Łukasiewicza spotykają się co 2 lata na Sesjach Szkół im. Ignacego Łukasiewicza. Celem tych spotkań jest propagowanie postaci Patrona - Ignacego Łukasiewicza, wielkiego wynalazcy, prekursora przemysłu naftowego, patrioty i społecznika. Spotkania te dają również możliwości zawierania nowych znajomości, poznawania różnych regionów Polski, wymiany doświadczeń.</p>
+            <p class="patronhis">Od 7 lat nasz szkoła współpracuje z Fundacją PGNiG im. Ignacego Łukasiewicza z siedzibą w Warszawie. Otrzymywane środki przeznaczamy na realizację zajęć pozalekcyjnych, wycieczki dydaktyczne oraz zakup sprzętu niezbędnego do prowadzenia tych zajęć. Główną naszą działalnością jest prowadzenie ścieżki edukacyjnej "Śladami Ignacego Łukasiewicza". W ramach tych zajęć uczniowie mają możliwość: </p>
+            <ul>
+               <li class="listali" style="color: #666666;">Poznania biografii Ignacego Łukaszewicza i prowadzonej przez niego działalności farmaceutycznej, społecznej, dobroczynnej oraz ważności jego odkrycia i wpływu na rozwój przemysłu naftowego,</li>
+               <li class="listali" style="color: #666666;">Poznania Karpacko - Galicyjskiego Szlaku Naftowego w obrębie Powiatu Gorlickiego,</li>
+               <li class="listali" style="color: #666666;">Rozwijania zainteresowań historią własnego regionu, z którym związani są wybitni ludzie,</li>
+               <li class="listali" style="color: #666666;">Utrwalania postaw patriotycznych oraz umiejętności wartościowania,</li>
+               <li class="listali" style="color: #666666;">Doskonalenia umiejętności redagowania własnych tekstów, przygotowywania referatów, prezentacji multimedialnych,</li>
+               <li class="listali" style="color: #666666;">Udział w konkursach i imprezach związanych z Ignacym Łukasiewiczem.</li>
+            </ul>
+            <br>
+         </div>
+	</section>
+
+	<!-- Stopka -->
+
+	<footer class="bg1">
+		<div class="container p-t-20 p-b-10">
+			<div class="row flex-r-m">
+				<h4 class="c-white m-r-10">Nasze social media:</h4>
+				<a class="social_icon" href="https://www.youtube.com/channel/UCY8TC2U7ylRDfwIyjfSMjEA"><i class="fa fa-youtube fa-3x icon"></i></a>
+				<a class="social_icon" href="https://www.instagram.com/gorkagorlice/"><i id="icon2" class="fa fa-instagram fa-3x icon"></i></a>
+				<a class="social_icon" href="https://web.facebook.com/zs1gorlice/"><i id="icon3" class="fa fa-facebook fa-3x icon"></i></a>
+			</div>
+		</div>
+
+		<div class="container p-t-40 p-b-70">
+			<div class="row">
+				<div class="col-md-10 col-lg-6 p-r-35 p-r-15-lg m-l-r-auto">
+					<div class="wrap-item-mainmenu p-b-22">
+						<h3 class="tit-mainmenu tit10 p-b-25">Oferta edukacyjna</h3>
+						<div class="item-mainmenu m-b-36">
+							<div class="flex-w flex-b m-b-3">
+								<a href="../profile/oferta.html#liceum" class="name-item-mainmenu txt21">-Liceum</a>
+								<div class="line-item-mainmenu bg3-pattern"></div>
+							</div>
+						</div>
+						<div class="item-mainmenu m-b-36">
+							<div class="flex-w flex-b m-b-3">
+								<a href="profile/oferta.html#technikum" class="name-item-mainmenu txt21">-Technikum</a>
+								<div class="line-item-mainmenu bg3-pattern"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-10 col-lg-6 p-l-35 p-l-15-lg m-l-r-auto">
+					<div class="wrap-item-mainmenu p-b-22">
+						<h3 class="tit-mainmenu tit10 p-b-25">Rekrutacja</h3>
+						<div class="item-mainmenu m-b-36">
+							<div class="flex-w flex-b m-b-3">
+								<a href="../szkola/rekrutacja.html#dokumenty" class="name-item-mainmenu txt21">-Wymagane dokumenty</a>
+								<div class="line-item-mainmenu bg3-pattern"></div>
+							</div>
+						</div>
+						<div class="item-mainmenu m-b-36">
+							<div class="flex-w flex-b m-b-3">
+								<a href="../szkola/rekrutacja.html#termin" class="name-item-mainmenu txt21">-Terminarz rekrutacji</a>
+								<div class="line-item-mainmenu bg3-pattern"></div>
+							</div>
+						</div>
+						<div class="item-mainmenu m-b-36">
+							<div class="flex-w flex-b m-b-3">
+								<a href="../szkola/rekrutacja.html#regulamin" class="name-item-mainmenu txt21">-Regulamin rekrutacji</a>
+								<div class="line-item-mainmenu bg3-pattern"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-10 col-lg-6 p-l-35 p-l-15-lg m-l-r-auto">
+					<div class="wrap-item-mainmenu p-b-22">
+						<h3 class="tit-mainmenu tit10 p-b-25">Informacje</h3>
+						<div class="item-mainmenu m-b-36">
+							<div class="flex-w flex-b m-b-3">
+								<a href="../strefy/uczeń.html" class="name-item-mainmenu txt21">-Strefa ucznia</a>
+								<div class="line-item-mainmenu bg3-pattern"></div>
+							</div>
+						</div>
+						<div class="item-mainmenu m-b-36">
+							<div class="flex-w flex-b m-b-3">
+								<a href="../strefy/rodzic.html" class="name-item-mainmenu txt21">-Strefa rodzica</a>
+								<div class="line-item-mainmenu bg3-pattern"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-10 col-lg-6 p-l-35 p-l-15-lg m-l-r-auto">
+					<div class="wrap-item-mainmenu p-b-22">
+						<h3 class="tit-mainmenu tit10 p-b-25">O szkole</h3>
+						<div class="item-mainmenu m-b-36">
+							<div class="flex-w flex-b m-b-3">
+								<span class="name-item-mainmenu txt13">
+									Jesteśmy szkołą z ponad 60-letnią tradycją. Dążymy do tego, by ciągle "być lepszym". Dbamy o wysoką jakość kształcenia oraz o to by nasi uczniowie czuli się bezpiecznie.
+								</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="end-footer bg2">
+			<div class="container">
+				<div class="flex-sb-m flex-w p-t-22 p-b-22">
+					<div class="txt17 p-r-20 p-t-5 p-b-5">
+						Copyright &copy; ZS1 Gorlice <script>document.write(new Date().getFullYear())</script> Wszelkie prawa zastrzeżone!  |  Strona wykonana przez: Maciej Gąsior
+					</div>
+					<div class="txt17 p-r-20 p-t-5 p-b-5">
+						<a href="../szkola/dostęp.html">| Deklaracja dostępności |</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<!-- Powrót do góry -->
+
+	<div class="btn-back-to-top bg0-hov" id="myBtn">
+		<span class="symbol-btn-back-to-top">
+			<i class="fa fa-angle-double-up" aria-hidden="true"></i>
+		</span>
+	</div>
+
+	<!-- Container Selection1 -->
+	<div id="dropDownSelect1"></div>
+
+<!--===============================================================================================-->
+	<script type="text/javascript" src="../vendor/jquery/jquery-3.2.1.min.js"></script>
+<!--===============================================================================================-->
+	<script type="text/javascript" src="../vendor/animsition/js/animsition.min.js"></script>
+<!--===============================================================================================-->
+	<script type="text/javascript" src="../vendor/bootstrap/js/popper.js"></script>
+	<script type="text/javascript" src="../vendor/bootstrap/js/bootstrap.min.js"></script>
+<!--===============================================================================================-->
+	<script type="text/javascript" src="../vendor/select2/select2.min.js"></script>
+<!--===============================================================================================-->
+	<script type="text/javascript" src="../vendor/daterangepicker/moment.min.js"></script>
+	<script type="text/javascript" src="../vendor/daterangepicker/daterangepicker.js"></script>
+<!--===============================================================================================-->
+	<script type="text/javascript" src="../vendor/slick/slick.min.js"></script>
+	<script type="text/javascript" src="../js/slick-custom.js"></script>
+<!--===============================================================================================-->
+	<script type="text/javascript" src="../vendor/parallax100/parallax100.js"></script>
+	<script type="text/javascript">
+        $('.parallax100').parallax100();
+	</script>
+<!--===============================================================================================-->
+	<script type="text/javascript" src="../vendor/countdowntime/countdowntime.js"></script>
+<!--===============================================================================================-->
+	<script type="text/javascript" src="../vendor/lightbox2/js/lightbox.min.js"></script>
+<!--===============================================================================================-->
+	<script src="../js/main.js"></script>
+	<script src="https://unpkg.com/scrollreveal"></script>
+
+</body>
+</html>
